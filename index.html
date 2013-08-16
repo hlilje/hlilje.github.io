@@ -1,22 +1,20 @@
+---
+title: hlilje | Front Page
+---
+
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>hlilje</title>
+  {% include head.html %}
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
   <body>
     <div class="wrapper">
+      {% include header.html %}
+
+      {% include links.html %}
+
       <header>
         <h1>hlilje</h1>
-        <p>Official Website</p>
+        <p>Official Website!</p>
         <p class="view"><a href="https://github.com/hlilje">GitHub Profile</a></p>
       </header>
 
@@ -31,9 +29,7 @@
         <p>This will probably become my main website sooner or later.</p>
       </section>
 
-      <footer>
-        <p><small><a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></small></p>
-      </footer>
+      {% include footer.html %}
     </div>
 
     <script src="javascripts/scale.fix.js"></script>
