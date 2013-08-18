@@ -1,8 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family="Ubuntu":300italic,700italic,300,700);
 @import url(https://fonts.googleapis.com/css?family="Ubuntu Mono":300italic,700italic,300,700);
 
 body {
   padding:50px;
-  font:14px/1.5 "Ubuntu Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.5 "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -22,6 +23,16 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
+}
+
+.linkCategoryTitle {
+  font-size:18px;
+}
+
+.linkCategory {
+  font-size:14px;
+  list-style:none;
+  padding:0px;
 }
 
 h2 {
@@ -46,7 +57,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:940px;
   margin:0 auto;
 }
 
@@ -165,6 +176,10 @@ section {
   padding-bottom:50px;
 }
 
+section#works {
+  text-align:center;
+}
+
 small {
   font-size:11px;
 }
@@ -183,8 +198,17 @@ footer {
   bottom:50px;
 }
 
+footer ul {
+  list-style:none;
+  padding:0px;
+}
+
+nav#profileLinks {
+  float:right;
+  padding-left:10px;
+}
+
 @media print, screen and (max-width: 960px) {
-  
   div.wrapper {
     width:auto;
     margin:0;
