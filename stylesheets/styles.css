@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family="Ubuntu":300italic,700italic,300,700);
 @import url(https://fonts.googleapis.com/css?family="Ubuntu Mono":300italic,700italic,300,700);
 
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
 body {
   padding:50px;
   font:14px/1.5 "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -32,7 +38,15 @@ h1 {
 .linkCategory {
   font-size:14px;
   list-style:none;
-  padding:0px;
+}
+
+section#works ul {
+  text-align:center;
+  list-style:none;
+}
+
+section#works ul li {
+  display:inline-block;
 }
 
 h2 {
@@ -116,8 +130,6 @@ header ul {
   list-style:none;
   height:40px;
   
-  padding:0;
-  
   background: #eee;
   background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -177,7 +189,6 @@ section {
 }
 
 section#works {
-  text-align:center;
 }
 
 small {
@@ -200,7 +211,6 @@ footer {
 
 footer ul {
   list-style:none;
-  padding:0px;
 }
 
 nav#profileLinks {
