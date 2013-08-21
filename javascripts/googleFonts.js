@@ -1,5 +1,5 @@
 WebFontConfig = {
-	google: { families: [ 'Ubuntu+Mono:400,700,400italic,700italic:latin', 'Ubuntu:300,700,300italic,700italic:latin' ] }
+	google: { families: [ 'Ubuntu+Mono:400,700:latin', 'Ubuntu:400,700,400italic,700italic:latin' ] }
 };
 (function() {
 	var wf = document.createElement('script');
