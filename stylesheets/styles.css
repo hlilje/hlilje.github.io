@@ -233,7 +233,7 @@ img#profilePicture {
     margin:0;
   }
 
-  header, section, footer {
+  header, section, footer, nav {
     float:none;
     position:static;
     width:auto;
@@ -244,14 +244,16 @@ img#profilePicture {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
 
-  nav {
-    padding:20px 0;
+  section#twitter {
+    width:60%;
+  }
+
+  nav#profileLinks {
+    padding:20px 20px;
   }
 
   header a small {
@@ -280,6 +282,22 @@ img#profilePicture {
 
   pre, code {
     word-wrap:normal;
+  }
+
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+  }
+
+  section#twitter {
+    display:none;
+  }
+
+  nav#profileLinks {
+    padding:20px 0;
+    float:none;
+    position:static;
+    width:auto;
   }
 }
 
