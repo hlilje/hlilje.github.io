@@ -1,0 +1,184 @@
+---
+layout: scripts
+title: hlilje | Scripts
+---
+
+<div class="canvasContainer">
+  <canvas id="canvas" width="512" height="512"></canvas>
+
+  <script>
+  // Pretend to be a class
+  function BouncingBalls() {
+    document.write("This is JavaScript");
+
+    // Init
+    var canvas = document.getElementById("canvas");
+    canvas.width = document.body.clientWidth;
+    canvas.height = document.body.clientHeight;
+    var w = canvas.width; var h = canvas.height;
+    var ctx = canvas.getContext("2d");
+
+    // Array of particles
+    var particles = [];
+    for(var i=0; i<50; i++) {
+      particles.push(new create_particle());
+    }
+
+    // Func to generate a particle
+    function create_particle() {
+      // Random size
+      this.radius = Math.random() * 20 + 20;
+
+      // Random starting position, don't allow spawning outside canvas
+      this.x = Math.random() * (w - this.radius*4) + this.radius*2;
+      this.y = Math.random() * (h - this.radius*4) + this.radius*2;
+
+      // Random velocity
+      this.vx = Math.random() * 20 - 10;
+      this.vy = Math.random() * 20 - 10;
+
+      // Scalar to flip sign for velocity
+      this.dirX = 1;
+      this.dirY = 1;
+
+      // Random colors
+      var r = Math.random() * 255 >> 0; // Flooring hack
+      var g = Math.random() * 255 >> 0;
+      var b = Math.random() * 255 >> 0;
+      this.color = "rgba("+r+", "+g+", "+b+", 0.5)";
+    }
+
+    // Animation
+    function draw() {
+      // Moving background paint code inside this to remove trail
+      // Makes background paint not blend with previous frame
+      // Displays source image over destination image
+      ctx.globalCompositeOperation = "source-over";
+
+      // Black rect covering canvas with a bit opacity
+      // The increasing layers of transparent black eventually covers the trail
+      ctx.fillStyle = "rgba(0, 0, 0, 0.3)";
+      ctx.fillRect(0, 0, w, h); // x y w h
+
+      // Blend particles with background
+      // Displays the source image + destination image
+      ctx.globalCompositeOperation = "lighter";
+
+      // Draw particles from array
+      for(var t=0; t<particles.length; t++) {
+        var p = particles[t];
+        ctx.beginPath();
+
+        // Colours
+        // xStart yStart startRadius xEnd yEnd endRadius
+        var gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.radius);
+        gradient.addColorStop(0, "white");
+        gradient.addColorStop(0.4, "white");
+        gradient.addColorStop(0.4, p.color);
+        gradient.addColorStop(1.0, "black");
+
+        // Draw the particle
+        ctx.fillStyle = gradient;
+        // x y r startAngle endAngle counterclockwise
+        ctx.arc(p.x, p.y, p.radius, Math.PI*2, false);
+        ctx.fill();
+
+        // Use velocity
+        p.x += p.dirX * p.vx;
+        p.y += p.dirY * p.vy;
+
+        // Make balls bounce
+        // Centered origo
+        if(p.x < p.radius || p.x > w - p.radius) p.dirX = p.dirX * -1;
+        if(p.y < p.radius || p.y > h - p.radius) p.dirY = p.dirY * -1;
+      }
+    }
+
+    // Repeatedly executes the code after a given time (ms)
+    setInterval(draw, 33);
+  }
+
+  BouncingBalls(); // Start the animation
+  </script>
+</div>
+
+<div class="cavasContainer2">
+  <canvas id="canvas2" width="128" height="128"></canvas>
+
+  <script>
+  // Pretend to be a class
+  function Clock() {
+    var canvas = document.getElementById("canvas2");
+    var w = canvas.width; var h = canvas.height;
+    var ctx = canvas.getContext("2d");
+
+    // x0 y0 r0 x1 y1 r1
+    var grd = ctx.createRadialGradient(w/2,w/2,20,w/2,w/2,(w/4)*3);
+    grd.addColorStop(0, "cyan");
+    grd.addColorStop(1, "white");
+
+    ctx.globalCompositeOperation = "source-over";
+
+    function drawFace() {
+      // Background
+      ctx.fillStyle = "rgba(0,0,0,0.3)";
+      ctx.fillRect(0, 0, w, h);
+
+      var clockRadius = canvas.width/2;
+
+      ctx.beginPath();
+      ctx.arc(w/2, h/2, clockRadius, 0, Math.PI*2, false);
+      ctx.strokeStyle = "white";
+      ctx.stroke();
+    }
+
+    function drawHand(hX, hY) {
+      ctx.strokeStyle = grd;
+      ctx.beginPath();
+      ctx.moveTo(w/2, h/2);
+      ctx.lineTo(hX, hY);
+      ctx.stroke();
+    }
+
+    function setTime() {
+      var date = new Date();
+      var hours = date.getHours();
+      var minutes = date.getMinutes();
+      var seconds = date.getSeconds();
+
+      // Calculate angle for clock hands
+      if(hours > 12) {
+        hours = hours - 12;
+      }
+      var hAngle = ((2 * Math.PI) / 12) * hours - (Math.PI/2);
+      var mAngle = ((2 * Math.PI) / 60) * minutes - (Math.PI/2);
+      var sAngle = ((2 * Math.PI) / 60) * seconds - (Math.PI/2);
+
+      // Hour hand 
+      var hhX = (w/2 + w/4 * Math.cos(hAngle)) >> 0; // origin + radius * cos(angle)
+      var hhY = (h/2 + h/4 * Math.sin(hAngle)) >> 0;
+      drawHand(hhX, hhY);
+
+      // Minute hand
+      var mhX = (w/2 + (w/3) * Math.cos(mAngle)) >> 0;
+      var mhY = (h/2 + (h/3) * Math.sin(mAngle)) >> 0;
+      drawHand(mhX, mhY);
+
+      // Second hand
+      var shX = (w/2 + w/2 * Math.cos(sAngle)) >> 0;
+      var shY = (h/2 + h/2 * Math.sin(sAngle)) >> 0;
+      drawHand(shX, shY);
+    }
+
+    function drawClock() {
+      drawFace();
+      setTime();
+    }
+
+    // Draw clock every second
+    setInterval(drawClock, 1000);
+  }
+
+  Clock(); // Start the clock
+  </script>
+</div>
