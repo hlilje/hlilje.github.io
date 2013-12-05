@@ -217,6 +217,14 @@ footer ul {
   font-weight: bold;
 }
 
+.text-highlight {
+  font-weight: bold;
+}
+
+.footer-list li {
+  display: inline-block;
+}
+
 ul#works {
   text-align: center;
   list-style: none;
