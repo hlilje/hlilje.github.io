@@ -249,7 +249,7 @@ img#profilePicture {
   header, section, footer, nav {
     float: none;
     position: static;
-    width: auto;
+    /*width: auto;*/
   }
 
   header {
