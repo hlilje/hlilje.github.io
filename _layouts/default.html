@@ -1,19 +1,29 @@
-<!DOCTYPE html>
-<html>
-{% include head.html %}
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+  <body>
+    {% include topbar.html %}
+    
+    <div class="row">
+      <div class="large-8 columns">
+        {{ content }}
+      </div>
 
-<body>
-<div class="wrapper">
-  {% include header.html %}
+      <div class="large-4 columns">
+        {% include links.html %}
+      </div>
+    </div>
 
-  {% include links.html %}
+    <div class="row">
+      <div class="small-12 columns">
+        {% include footer.html %}
+      </div>
+    </div>
 
-  {{ content }}
-
-  {% include footer.html %}
-</div>
-
-<script src="/javascripts/scale.fix.js"></script>
-<script src="/javascripts/google.fonts.js"></script>
-</body>
+    <script src="/js-vendor/vendor/jquery.js"></script>
+    <script src="/js-vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
