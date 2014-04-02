@@ -1,0 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Vollkorn);
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.top-bar .name h1 a {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.3rem;
+}
