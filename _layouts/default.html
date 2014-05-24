@@ -3,27 +3,21 @@
   {% include head.html %}
   <body>
     {% include topbar.html %}
-    
     <div class="row">
       <div class="large-8 columns">
         {{ content }}
       </div>
-
       <div class="large-4 columns">
         {% include links.html %}
       </div>
     </div>
-
     <div class="row">
-      <div class="small-12 columns">
+      <div class="large-12 columns">
         {% include footer.html %}
       </div>
     </div>
-
     <script src="/js-vendor/vendor/jquery.js"></script>
     <script src="/js-vendor/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    <script>$(document).foundation();</script>
   </body>
 </html>

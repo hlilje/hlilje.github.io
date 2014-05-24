@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Vollkorn);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro);
 
 * {
   font-family: 'Open Sans', sans-serif;
 }
 
 .top-bar .name h1 a {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Source Code Pro', serif;
 }
