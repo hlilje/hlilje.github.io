@@ -18,30 +18,9 @@ h2, h3, h4, h5, h6 {
   margin-right: 10px;
 }
 
-.frontpage-container {
-  padding-top: 10px;
-}
-
-.frontpage-image {
-  text-align: center;
-}
-
 .frontpage-title {
   font-family: 'Source Code Pro', monospace !important;
   /*color: white;*/
   text-align: center;
-  font-size: 80px;
-}
-
-.frontpage-works-left {
-  text-align: left;
-}
-
-.frontpage-works-right {
-  text-align: right;
-}
-
-.frontpage-works-left a,
-.frontpage-works-right a {
-  font-size: 20px;
+  font-size: 60px;
 }
