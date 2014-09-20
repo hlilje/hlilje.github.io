@@ -1,6 +1,6 @@
 // Pretend to be a class
 function Clock() {
-  var canvas = document.getElementById("canvas2");
+  var canvas = document.getElementById("canvas");
   var w = canvas.width; var h = canvas.height;
   var ctx = canvas.getContext("2d");
 
