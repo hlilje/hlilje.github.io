@@ -1,16 +1,49 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro);
 
+/* HTML Elements */
+
 body {
-  /*background: black !important;*/
-  /*color: grey !important;*/
+  /*background: black;*/
+  /*color: gray;*/
 }
 
 h1 {
-  font-family: 'Source Code Pro', monospace !important;
+  font-family: 'Source Code Pro', monospace;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Custom Classes */
+
+.footer-bottom {
+  width: 100%;
+  background: #333333;
+  padding-top: 24px;
+  color: #999999;
+}
+  .footer-bottom ul {
+    padding-left: 4px;
+  }
+
+.frontpage-links {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+  .frontpage-links li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.frontpage-title {
+  font-family: 'Source Code Pro', monospace;
+  /*color: white;*/
+  text-align: center;
+  font-size: 60px;
 }
 
 .profile-picture {
@@ -18,9 +51,4 @@ h2, h3, h4, h5, h6 {
   margin-right: 10px;
 }
 
-.frontpage-title {
-  font-family: 'Source Code Pro', monospace !important;
-  /*color: white;*/
-  text-align: center;
-  font-size: 60px;
-}
+/* Foundation Classes */
