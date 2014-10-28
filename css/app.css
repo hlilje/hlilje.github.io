@@ -43,6 +43,7 @@ h2, h3, h4, h5, h6 {
   font-family: 'Source Code Pro', monospace;
   /*color: white;*/
   text-align: center;
+  text-transform: uppercase;
   font-size: 60px;
 }
 
