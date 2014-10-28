@@ -51,6 +51,12 @@ h2, h3, h4, h5, h6 {
   margin-right: 10px;
 }
 
+.rounded-edges {
+  border-radius: 1%;
+  -webkit-border-radius: 1%;
+  -moz-border-radius: 1%;
+}
+
 /* Foundation Classes */
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
