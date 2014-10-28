@@ -52,3 +52,14 @@ h2, h3, h4, h5, h6 {
 }
 
 /* Foundation Classes */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+  nav.top-bar {
+    text-align: center;
+  }
+
+  section.top-bar-section {
+    display: inline-block;
+    /* margin-left: -132px; */
+  }
+}
