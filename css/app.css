@@ -1,6 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Lato);
 
 /* HTML Elements */
+
+* {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+}
 
 body {
   /*background: black;*/
@@ -8,11 +12,11 @@ body {
 }
 
 h1 {
-  font-family: 'Source Code Pro', monospace;
+  /* font-family: 'Source Code Pro', monospace; */
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
 /* Custom Classes */
@@ -40,7 +44,7 @@ h2, h3, h4, h5, h6 {
   }
 
 .frontpage-title {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
   /*color: white;*/
   text-align: center;
   text-transform: uppercase;
