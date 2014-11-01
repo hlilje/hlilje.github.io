@@ -81,30 +81,9 @@ label {
 /* Foundation Classes */
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-  .panel {
-    background: #111111;
-    border-color: #222222;
-  }
-
-  .side-nav li.divider {
-    border-top-color: #222222;
-  }
-
-  .side-nav li a:not(.button) {
-    color: darkcyan; /* #008b8b */
-
-  }
-
-  .side-nav li a:not(.button):hover {
-    color: #00cbcb;
-  }
-
   nav.top-bar {
     text-align: center;
   }
-    nav.top-bar * {
-      color: #999999 !important;
-    }
 
   section.top-bar-section {
     display: inline-block;
@@ -114,4 +93,26 @@ label {
   section.top-bar-title {
     display: inline-block;
   }
+}
+
+nav.top-bar * {
+  color: #999999 !important;
+}
+
+.panel {
+  background: #111111;
+  border-color: #222222;
+}
+
+.side-nav li.divider {
+  border-top-color: #222222;
+}
+
+.side-nav li a:not(.button) {
+  color: darkcyan; /* #008b8b */
+
+}
+
+.side-nav li a:not(.button):hover {
+  color: #00cbcb;
 }
