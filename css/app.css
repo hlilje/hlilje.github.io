@@ -25,15 +25,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 .frontpage-links {
-  width: 100%;
+  padding: 0px;
+  padding-bottom: 20px;
+  border: 0px;
+  margin: 0px;
+  list-style: none;
   text-align: center;
   text-transform: uppercase;
   font-size: 20px;
 }
   .frontpage-links li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* display: inline-block; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
   }
 
 .frontpage-title {
