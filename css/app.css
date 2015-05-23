@@ -68,14 +68,13 @@ label {
 }
 
 .profile-picture {
-  float: left;
-  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
-.rounded-edges {
-  border-radius: 1%;
-  -webkit-border-radius: 1%;
-  -moz-border-radius: 1%;
+.round {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
 }
 
 /* Foundation Classes */
