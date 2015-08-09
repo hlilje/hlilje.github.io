@@ -1,6 +1,7 @@
-/bower_components/*
-/.sass-cache/*
 *.DS_Store
-# Include stylesheets because Jekyll cannot compile Foundation
-# /stylesheets/*
 /_site/*
+/.sass-cache/*
+
+# Include these folders because Jekyll cannot compile Foundation
+# /bower_components/*
+# /stylesheets/*
