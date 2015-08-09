@@ -2,34 +2,6 @@
 @import "foundation";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans|Lato);
 
-/* HTML Elements */
-
-a {
-  color: darkcyan; /* #008b8b */
-}
-  a:hover {
-    color: #00cbcb;
-  }
-
-body {
-  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  background: black;
-  color: #999999;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  color: #999999;
-}
-
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  color: #999999;
-}
-
-label {
-  color: #666666;
-}
-
 /* Custom Classes */
 
 .footer-bottom {
@@ -86,6 +58,7 @@ label {
 }
 
 /* Foundation Classes */
+
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
   .top-bar {
@@ -100,34 +73,4 @@ label {
   .top-bar-title {
     display: inline-block;
   }
-}
-
-.top-bar * {
-  color: #999999 !important;
-}
-
-/* Change colour of menu icon */
-.top-bar .toggle-topbar.menu-icon a span::after {
-  box-shadow: 0 0px 0 1px #999999, 0 7px 0 1px #999999, 0 14px 0 1px #999999;
-}
-  .top-bar .toggle-topbar.menu-icon a span:hover:after {
-    box-shadow: 0 0px 0 1px #999999, 0 7px 0 1px #999999, 0 14px 0 1px #999999;
-  }
-
-.panel {
-  background: #111111;
-  border-color: #222222;
-}
-
-.side-nav li.divider {
-  border-top-color: #222222;
-}
-
-.side-nav li a:not(.button) {
-  color: darkcyan; /* #008b8b */
-
-}
-
-.side-nav li a:not(.button):hover {
-  color: #00cbcb;
 }
