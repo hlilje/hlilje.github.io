@@ -1,3 +1,7 @@
+# Jekyll
 markdown: kramdown
 timezone: Europe/Stockholm
+
+# Site variables
+analytics: UA-55203713-1
 url: hlilje.com
