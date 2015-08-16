@@ -1,76 +1,148 @@
+@import "normalize";
 @import "settings";
 @import "foundation";
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Lato);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Montserrat);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
-/* Custom Classes */
+// Custom Variables
+// - - - - - - - - - - - - - - - - - - - - - - - - -
 
-.footer-bottom {
-  width: 100%;
-  background: #333333;
-  padding-top: 24px;
-  color: #999999;
-}
-  .footer-bottom ul {
-    padding-left: 4px;
-  }
+$jet: #222222;
+$vapor: #F6F6F6;
 
-.frontpage-font {
-  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-}
+$theme-font-family-title: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica,
+    Roboto, Arial, sans-serif;
+$theme-bg-accent-colour: $vapor;
+$theme-font-accent-colour: $jet;
+$logo-size: rem-calc(64);
 
-.frontpage-links {
-  padding: 0px;
-  padding-bottom: 20px;
-  border: 0px;
-  margin: 0px;
-  list-style: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-  .frontpage-links li {
-    /* display: inline-block; */
-    /* padding-left: 10px; */
-    /* padding-right: 10px; */
-  }
+// Mixins
+// - - - - - - - - - - - - - - - - - - - - - - - - -
 
-.frontpage-title {
-  /*color: white;*/
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 60px;
+@mixin reset {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
-.profile-picture {
-  margin-bottom: 20px;
-}
-
-.round {
+@mixin round {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
 }
 
-.rounded-edges {
-  border-radius: 1%;
-  -webkit-border-radius: 1%;
-  -moz-border-radius: 1%;
+// Custom Classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+.footer-bottom {
+  padding-top: rem-calc(20);
+  background: $theme-bg-accent-colour;
+  color: $theme-font-accent-colour;
+
+  li:first-child {
+    margin-left: 0;
+  }
+
+  @media #{$small-up} {
+    text-align: center;
+
+    li {
+      float: none;
+    }
+  }
+  @media #{$large-up} {
+    text-align: left;
+
+    li {
+      float: left;
+    }
+  }
 }
 
-/* Foundation Classes */
+.frontpage-links {
+  @include reset;
 
-/* min-width 641px, medium screens */
-@media only screen and (min-width: 40.063em) {
-  .top-bar {
+  padding-bottom: rem-calc(40);
+  font-family: $theme-font-family-title;
+  font-size: rem-calc(20);
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none;
+
+  li {
+    display: inline-block;
+
+    @media #{$small-only} {
+      padding-left: rem-calc(10);
+      padding-right: rem-calc(10);
+    }
+  }
+
+  li + li:before {
+    @media #{$medium-up} {
+      content: " ≡ ";
+    }
+
+    padding-left: rem-calc(10);
+    padding-right: rem-calc(10);
+  }
+}
+
+.frontpage-logo {
+  width: $logo-size;
+  height: $logo-size;
+}
+
+.frontpage-picture {
+  padding-bottom: rem-calc(40);
+}
+
+.frontpage-title {
+  @include reset;
+
+  display: inline-block;
+
+  @media #{$small-only} {
+    padding-left: rem-calc(20);
+    padding-right: rem-calc(20);
+  }
+  padding-top: rem-calc(20);
+  padding-bottom: rem-calc(20);
+
+  font-family: $theme-font-family-title;
+  font-size: rem-calc(50);
+  color: $black;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.large-right {
+  @media #{$large-up} {
+    float: right !important;
+  }
+}
+
+.profile-picture {
+  @include round;
+
+  margin-bottom: rem-calc(20);
+}
+
+// Foundation Classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@media #{$topbar-media-query} {
+  nav.top-bar {
     text-align: center;
   }
 
-  .top-bar-section {
+  section.top-bar-section {
     display: inline-block;
-    /* margin-left: -132px; */
   }
 
-  .top-bar-title {
+  // Custom class
+  section.top-bar-title {
     display: inline-block;
   }
 }
