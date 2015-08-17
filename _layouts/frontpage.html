@@ -9,5 +9,10 @@
       </div>
     </div>
     {% include scripts.html %}
+    <script>
+      if (!Modernizr.svg) {
+        $(".frontpage-logo").attr("src", "/images/logo.png");
+      }
+    </script>
   </body>
 </html>
