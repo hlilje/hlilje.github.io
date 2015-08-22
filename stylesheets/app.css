@@ -10002,9 +10002,4 @@ th.hide-for-touch {
   section.top-bar-section {
     display: inline-block;
   }
-
-  /* line 145, ../scss/app.scss */
-  section.top-bar-title {
-    display: inline-block;
-  }
 }
