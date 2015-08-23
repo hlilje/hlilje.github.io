@@ -1,278 +1,100 @@
-economy:
-    ebay:
-        title: eBay
-        url: http://www.ebay.com/usr/hlilje
-    kickstarter:
-        title: Kickstarter
-        url: https://www.kickstarter.com/profile/hlilje
-    prisjakt:
-        title: Prisjakt
-        url: http://www.prisjakt.nu/minsida.php?a=vaexelverkan
-    tradera:
-        title: Tradera
-        url: http://gamla.tradera.com/MyTradera/Feedback/ViewFeedback.aspx?ftgnr=2789132
-education:
-    10fastfingers:
-        title: 10FastFingers
-        url: http://10fastfingers.com/user/130055/
-    duolingo:
-        title: Duolingo
-        url: https://www.duolingo.com/hlilje
-    keybr:
-        title: keybr.com
-        url: http://keybr.com/user/show/138898
-    keyhero:
-        title: KeyHero
-        url: http://www.keyhero.com/profile/superkargen/
-    kth-homepage:
-        title: KTH Homepage
-        url: http://www.csc.kth.se/~hlilje/
-    kth-profile:
-        title: KTH Profile
-        url: https://www.kth.se/profile/162570/
-    mimers brunn:
-        title: Mimers Brunn
-        url: http://www.mimersbrunn.se/Members/Hampus_Liljekvist_147882.html
-gaming:
-    battlefield-heroes:
-        title: Battlefield Heroes
-        url: http://www.battlefieldheroes.com/en/player/2302280599
-    bc2:
-        title: "Battlefield: Bad Company 2"
-        url: http://www.battlefieldbadcompany2.com/stats?persona=240682689&#038;platform=pc
-    battlelog:
-        title: Battlelog
-        url: http://battlelog.battlefield.com/bf4/user/khlilje/
-    bioware-forums:
-        title: BioWare Forums
-        url: http://forum.bioware.com/user/755021-hlilje/
-    bioware-social-network:
-        title: BioWare Social Network
-        url: http://social.bioware.com/3138382/
-    cd-project-red:
-        title: CD Project RED Forums
-        url: http://forums.cdprojektred.com/members/3738857-hlilje
-    gamereactor:
-        title: Gamereactor
-        url: http://www.gamereactor.se/krypin/Superkargoeren/
-    gfwl:
-        title: Games for Windows Live
-        url: http://live.xbox.com/Profile?gamertag=vaexelverkan
-    ign:
-        title: IGN
-        url: http://people.ign.com/superkargoeren
-    mass-effect-hq:
-        title: Mass Effect 3 N7 HQ
-        url: http://social.bioware.com/n7hq/?name=Superkargen&#038;platform=pc
-    mycrysis:
-        title: MyCrysis
-        url: https://secure.mycrysis.com/forums/memberlist.php?mode=viewprofile&#038;u=872366
-    ns2:
-        title: Natural Selection 2
-        url: http://forums.unknownworlds.com/profile/186414/hlilje
-    the-nexus-forums:
-        title: The Nexus Forums
-        url: http://forums.nexusmods.com/index.php?/user/3602483-superkargoeren/
-    paradox-interactive:
-        title: Paradox Interactive Forums
-        url: http://forum.paradoxplaza.com/forum/member.php?334673-Superkargoeren
-    perfect-world:
-        title: Perfect World
-        url: http://core.perfectworld.com//u/superkargen
-    planetside-2:
-        title: PlanetSide 2
-        url: https://www.planetside2.com/players#!/5428082724807656833
-    quake-live:
-        title: Quake Live
-        url: http://www.quakelive.com/#!profile/summary/hlilje
-    rockstar-games-social-club:
-        title: Rockstar Games Social Club
-        url: http://socialclub.rockstargames.com/member/hlilje
-    rockstar-games-social-club-tv:
-        title: Rockstar Games Social Club TV
-        url: https://tv.rockstargames.com/mytv/index/id/4528173
-    square-enix:
-        title: Square Enix
-        url: http://eu.square-enix.com/en/account/4310377
-    sc2:
-        title: StarCraft II
-        url: http://eu.battle.net/sc2/en/profile/1043944/1/hlilje/
-    steam:
-        title: Steam
-        url: http://steamcommunity.com/id/hlilje
-    team-liquid:
-        title: Team Liquid
-        url: http://www.teamliquid.net/forum/profile.php?user=Superkargen
-    twitch:
-        title: Twitch
-        url: http://www.twitch.tv/superkargen
-    ubisoft:
-        title: Ubisoft Forums
-        url: http://forums.ubi.com/member.php/1444031-hlilje
-    unreal-tournament:
-        title: Unreal Tournament Forums
-        url: https://forums.unrealtournament.com/member.php?197758-hlilje
-    uplay:
-        title: Uplay
-        url: https://uplay.ubi.com/#!/en-GB/profile/hlilje
-graphics-design:
-    flickr:
-        title: Flickr
-        url: https://www.flickr.com/people/hlilje/
-    imgur:
-        title: imgur
-        url: http://hlilje.imgur.com/
-    instagram:
-        title: Instagram
-        url: https://instagram.com/khlilje/
-    picasa:
-        title: Picasa Web Album
-        url: https://picasaweb.google.com/105792360022890678502
-music-musicproduction:
-    bandcamp:
-        title: Bandcamp
-        url: https://hlilje.bandcamp.com/
-    discogs:
-        title: Discogs
-        url: http://www.discogs.com/user/Vaexelverkan
-    lastfm:
-        title: Last.fm
-        url: http://www.last.fm/music/Hampus+Liljekvist
-    myspace:
-        title: MySpace
-        url: https://myspace.com/hlilje
-    lastfm-profile:
-        title: Personal Last.fm Profile
-        url: http://www.last.fm/user/LordHali
-    renoise:
-        title: Renoise Forums
-        url: http://forum.renoise.com/index.php?/user/17818-hlilje/
-    songkick:
-        title: Songkick
-        url: https://www.songkick.com/users/hlilje
-    soundcloud:
-        title: SoundCloud
-        url: https://soundcloud.com/hlilje
-    spotify:
-        title: Spotify
-        url: https://open.spotify.com/user/vaexelverkan
-    spotify-community:
-        title: Spotify Community
-        url: https://community.spotify.com/t5/user/viewprofilepage/user-id/576212
-social:
-    change-org:
-        title: Change.org
-        url: https://www.change.org/users/hlilje
-    facebook:
-        title: Facebook
-        url: https://www.facebook.com/hampusliljekvist
-    google+:
-        title: Google+
-        url: https://plus.google.com/+HampusLiljekvist
-    gravatar:
-        title: Gravatar
-        url: https://en.gravatar.com/hlilje
-    linkedin:
-        title: LinkedIn
-        url: https://www.linkedin.com/pub/hampus-liljekvist/46/72/902
-    reddit:
-        title: reddit
-        url: https://www.reddit.com/user/Superkargoeren/
-    twitter:
-        title: Twitter
-        url: https://twitter.com/hlilje
-    windows-live:
-        title: Windows Live
-        url: https://profile.live.com/cid-d48fae29737f2d8b/
-    yahoo:
-        title: Yahoo!
-        url: https://profile.yahoo.com/CKSE2ZFEJPIE57GPJYXWYH6QE4/
-software-development:
-    app-engine:
-        title: App Engine Playground
-        url: http://hlilje-app.appspot.com/
-    bitbucket:
-        title: Bitbucket
-        url: https://bitbucket.org/hlilje
-    codecademy:
-        title: Codecademy
-        url: http://www.codecademy.com/hlilje
-    digitalocean:
-        title: DigitalOcean Community
-        url: https://www.digitalocean.com/community/users/hlilje
-    github:
-        title: GitHub
-        url: https://github.com/hlilje
-    kattis:
-        title: Kattis
-        url: https://kth.kattis.com/users/hlilje
-    stack-exchange:
-        title: Stack Exchange
-        url: http://stackexchange.com/users/2232003/hampus-liljekvist
-    unreal-engine:
-        title: Unreal Engine Forums
-        url: https://forums.unrealengine.com/member.php?34829-hlilje
-    visual-studio-online:
-        title: Visual Studio Online
-        url: https://hlilje.visualstudio.com/
-technology:
-    sweclockers:
-        title: SweClockers.com
-        url: http://www.sweclockers.com/profil/vaexelverkan
-    ubuntu:
-        title: Ubuntu Forums
-        url: http://ubuntuforums.org/member.php?u=1848619
-    virtualbox:
-        title: VirtualBox Forums
-        url: https://forums.virtualbox.org/memberlist.php?mode=viewprofile&amp;u=84235
-    wot:
-        title: WOT
-        url: https://www.mywot.com/en/user/3701812
-various:
-    endomondo:
-        title: Endomondo
-        url: http://www.endomondo.com/profile/4111167
-    matklubben:
-        title: Matklubben
-        url: http://www.matklubben.se/matklubben/Superkargoeren
-    old-wordpress-website:
-        title: Old WordPress Website
-        url: http://hlilje.wordpress.com/
-    trello:
-        title: Trello
-        url: https://trello.com/hlilje
-video-film:
-    imdb:
-        title: IMDb
-        url: http://www.imdb.com/user/ur59667738/
-    vimeo:
-        title: Vimeo
-        url: https://vimeo.com/hlilje
-    vine:
-        title: Vine
-        url: https://vine.co/hlilje
-    voddler:
-        title: Voddler
-        url: http://www.voddler.com/en/profile/view/vaexelverkan/
-    youtube:
-        title: YouTube
-        url: https://www.youtube.com/user/HampusLiljekvist
-writing-literature:
-    goodreads:
-        title: Goodreads
-        url: https://www.goodreads.com/user/show/41880573-hampus-liljekvist
-    kindle:
-        title: Kindle
-        url: https://kindle.amazon.com/profile/Hampus-Liljekvist/28869870
-    markable:
-        title: Markable.in
-        url: http://markable.in/profiles/profile/hlilje/
-    scribd:
-        title: Scribd
-        url: http://www.scribd.com/khlilje
-    sharelatex:
-        title: ShareLaTeX Support
-        url: http://help.sharelatex.com/help/users/3111290
-    tumblr:
-        title: Tumblr
-        url: http://hlilje.tumblr.com/
+"Economy":
+    "eBay": http://www.ebay.com/usr/hlilje
+    "Kickstarter": https://www.kickstarter.com/profile/hlilje
+    "Prisjakt": http://www.prisjakt.nu/minsida.php?a=vaexelverkan
+    "Tradera": http://gamla.tradera.com/MyTradera/Feedback/ViewFeedback.aspx?ftgnr=2789132
+"Education":
+    "10FastFingers": http://10fastfingers.com/user/130055/
+    "Duolingo": https://www.duolingo.com/hlilje
+    "keybr.com": http://keybr.com/user/show/138898
+    "KeyHero": http://www.keyhero.com/profile/superkargen/
+    "KTH Homepage": http://www.csc.kth.se/~hlilje/
+    "KTH Profile": https://www.kth.se/profile/162570/
+    "Mimers Brunn": http://www.mimersbrunn.se/Members/Hampus_Liljekvist_147882.html
+"Gaming":
+    "Battlefield Heroes": http://www.battlefieldheroes.com/en/player/2302280599
+    "Battlefield: Bad Company 2": http://www.battlefieldbadcompany2.com/stats?persona=240682689&#038;platform=pc
+    "Battlelog": http://battlelog.battlefield.com/bf4/user/khlilje/
+    "BioWare Forums": http://forum.bioware.com/user/755021-hlilje/
+    "BioWare Social Network": http://social.bioware.com/3138382/
+    "CD Project RED Forums": http://forums.cdprojektred.com/members/3738857-hlilje
+    "Gamereactor": http://www.gamereactor.se/krypin/Superkargoeren/
+    "Games for Windows Live": http://live.xbox.com/Profile?gamertag=vaexelverkan
+    "IGN": http://people.ign.com/superkargoeren
+    "Mass Effect 3 N7 HQ": http://social.bioware.com/n7hq/?name=Superkargen&#038;platform=pc
+    "MyCrysis": https://secure.mycrysis.com/forums/memberlist.php?mode=viewprofile&#038;u=872366
+    "Natural Selection 2": http://forums.unknownworlds.com/profile/186414/hlilje
+    "The Nexus Forums": http://forums.nexusmods.com/index.php?/user/3602483-superkargoeren/
+    "Paradox Interactive Forums": http://forum.paradoxplaza.com/forum/member.php?334673-Superkargoeren
+    "Perfect World": http://core.perfectworld.com//u/superkargen
+    "PlanetSide 2": https://www.planetside2.com/players#!/5428082724807656833
+    "Quake Live": http://www.quakelive.com/#!profile/summary/hlilje
+    "Rockstar Games Social Club": http://socialclub.rockstargames.com/member/hlilje
+    "Rockstar Games Social Club TV": https://tv.rockstargames.com/mytv/index/id/4528173
+    "Square Enix": http://eu.square-enix.com/en/account/4310377
+    "StarCraft II": http://eu.battle.net/sc2/en/profile/1043944/1/hlilje/
+    "Steam": http://steamcommunity.com/id/hlilje
+    "Team Liquid": http://www.teamliquid.net/forum/profile.php?user=Superkargen
+    "Twitch": http://www.twitch.tv/superkargen
+    "Ubisoft Forums": http://forums.ubi.com/member.php/1444031-hlilje
+    "Unreal Tournament Forums": https://forums.unrealtournament.com/member.php?197758-hlilje
+    "Uplay": https://uplay.ubi.com/#!/en-GB/profile/hlilje
+"Graphics & Design":
+    "Flickr": https://www.flickr.com/people/hlilje/
+    "imgur": http://hlilje.imgur.com/
+    "Instagram": https://instagram.com/khlilje/
+    "Picasa Web Album": https://picasaweb.google.com/105792360022890678502
+"Music & Music Production":
+    "Bandcamp": https://hlilje.bandcamp.com/
+    "Discogs": http://www.discogs.com/user/Vaexelverkan
+    "Last.fm": http://www.last.fm/music/Hampus+Liljekvist
+    "MySpace": https://myspace.com/hlilje
+    "Personal Last.fm Profile": http://www.last.fm/user/LordHali
+    "Renoise Forums": http://forum.renoise.com/index.php?/user/17818-hlilje/
+    "Songkick": https://www.songkick.com/users/hlilje
+    "SoundCloud": https://soundcloud.com/hlilje
+    "Spotify": https://open.spotify.com/user/vaexelverkan
+    "Spotify Community": https://community.spotify.com/t5/user/viewprofilepage/user-id/576212
+"Social":
+    "Change.org": https://www.change.org/users/hlilje
+    "Facebook": https://www.facebook.com/hampusliljekvist
+    "Google+": https://plus.google.com/+HampusLiljekvist
+    "Gravatar": https://en.gravatar.com/hlilje
+    "LinkedIn": https://www.linkedin.com/pub/hampus-liljekvist/46/72/902
+    "reddit": https://www.reddit.com/user/Superkargoeren/
+    "Twitter": https://twitter.com/hlilje
+    "Windows Live": https://profile.live.com/cid-d48fae29737f2d8b/
+    "Yahoo!": https://profile.yahoo.com/CKSE2ZFEJPIE57GPJYXWYH6QE4/
+"Software Development":
+    "App Engine Playground": http://hlilje-app.appspot.com/
+    "Bitbucket": https://bitbucket.org/hlilje
+    "Codecademy": http://www.codecademy.com/hlilje
+    "DigitalOcean Community": https://www.digitalocean.com/community/users/hlilje
+    "GitHub": https://github.com/hlilje
+    "Kattis": https://kth.kattis.com/users/hlilje
+    "Stack Exchange": http://stackexchange.com/users/2232003/hampus-liljekvist
+    "Unreal Engine Forums": https://forums.unrealengine.com/member.php?34829-hlilje
+    "Visual Studio Online": https://hlilje.visualstudio.com/
+"Technology":
+    "SweClockers.com": http://www.sweclockers.com/profil/vaexelverkan
+    "Ubuntu Forums": http://ubuntuforums.org/member.php?u=1848619
+    "VirtualBox Forums": https://forums.virtualbox.org/memberlist.php?mode=viewprofile&amp;u=84235
+    "WOT": https://www.mywot.com/en/user/3701812
+"Various":
+    "Endomondo": http://www.endomondo.com/profile/4111167
+    "Matklubben": http://www.matklubben.se/matklubben/Superkargoeren
+    "Old WordPress Website": http://hlilje.wordpress.com/
+    "Trello": https://trello.com/hlilje
+"Video & Film":
+    "IMDb": http://www.imdb.com/user/ur59667738/
+    "Vimeo": https://vimeo.com/hlilje
+    "Vine": https://vine.co/hlilje
+    "Voddler": http://www.voddler.com/en/profile/view/vaexelverkan/
+    "YouTube": https://www.youtube.com/user/HampusLiljekvist
+"Writing & Literature":
+    "Goodreads": https://www.goodreads.com/user/show/41880573-hampus-liljekvist
+    "Kindle": https://kindle.amazon.com/profile/Hampus-Liljekvist/28869870
+    "Markable.in": http://markable.in/profiles/profile/hlilje/
+    "Scribd": http://www.scribd.com/khlilje
+    "ShareLaTeX Support": http://help.sharelatex.com/help/users/3111290
+    "Tumblr": http://hlilje.tumblr.com/

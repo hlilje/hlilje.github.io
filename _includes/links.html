@@ -1,59 +1,12 @@
 <aside class="panel">
   <h2 class="subheader"><small>Links</small></h2>
   <ul class="side-nav">
-    <li><label>Economy</label></li>
-    {% for link in site.data.links.economy %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% for category in site.data.links %}
+    <li><label>{{ category[0] }}</label></li>
+    {% for link in category[1] %}
+      <li><a href="{{ link[1] }}" target="_blank">{{ link[0] }}</a></li>
     {% endfor %}
     <li class="divider"></li>
-    <li><label>Education</label></li>
-    {% for link in site.data.links.education %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Gaming</label></li>
-    {% for link in site.data.links.gaming %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Graphics &amp; Design</label></li>
-    {% for link in site.data.links.graphics-design %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Music &amp; Music Production</label></li>
-    {% for link in site.data.links.music-musicproduction%}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Social</label></li>
-    {% for link in site.data.links.social %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Software Development</label></li>
-    {% for link in site.data.links.software-development %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Technology</label></li>
-    {% for link in site.data.links.technology %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Various</label></li>
-    {% for link in site.data.links.various %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Video &amp; Film</label></li>
-    {% for link in site.data.links.video-film %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
-    {% endfor %}
-    <li class="divider"></li>
-    <li><label>Writing &amp; Literature</label></li>
-    {% for link in site.data.links.writing-literature %}
-      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
     {% endfor %}
   </ul>
 </aside>
