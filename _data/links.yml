@@ -38,7 +38,7 @@ gaming:
         title: Battlefield Heroes
         url: http://www.battlefieldheroes.com/en/player/2302280599
     bc2:
-        title: Battlefield: Bad Company 2
+        title: "Battlefield: Bad Company 2"
         url: http://www.battlefieldbadcompany2.com/stats?persona=240682689&#038;platform=pc
     battlelog:
         title: Battlelog
@@ -110,7 +110,7 @@ gaming:
         title: Ubisoft Forums
         url: http://forums.ubi.com/member.php/1444031-hlilje
     unreal-tournament:
-        title: Unreal Tournament
+        title: Unreal Tournament Forums
         url: https://forums.unrealtournament.com/member.php?197758-hlilje
     uplay:
         title: Uplay
@@ -161,7 +161,7 @@ music-musicproduction:
         url: https://community.spotify.com/t5/user/viewprofilepage/user-id/576212
 social:
     change-org:
-        social: Change.org
+        title: Change.org
         url: https://www.change.org/users/hlilje
     facebook:
         title: Facebook

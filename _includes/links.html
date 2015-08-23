@@ -2,114 +2,58 @@
   <h2 class="subheader"><small>Links</small></h2>
   <ul class="side-nav">
     <li><label>Economy</label></li>
-    <li><a href="http://www.ebay.com/usr/hlilje" target="_blank">eBay</a></li>
-    <li><a href="https://www.kickstarter.com/profile/hlilje" target="_blank">Kickstarter</a></li>
-    <li><a href="http://www.prisjakt.nu/minsida.php?a=vaexelverkan" target="_blank">Prisjakt</a></li>
-    <li><a href="http://gamla.tradera.com/MyTradera/Feedback/ViewFeedback.aspx?ftgnr=2789132" target="_blank">Tradera</a></li>
+    {% for link in site.data.links.economy %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Education</label></li>
-    <li><a href="http://10fastfingers.com/user/130055/" target="_blank">10FastFingers</a></li>
-    <li><a href="https://www.duolingo.com/hlilje" target="_blank">Duolingo</a></li>
-    <li><a href="http://keybr.com/user/show/138898" target="_blank">keybr.com</a></li>
-    <li><a href="http://www.keyhero.com/profile/superkargen/" target="_blank">KeyHero</a></li>
-    <li><a href="http://www.csc.kth.se/~hlilje/" target="_blank">KTH Homepage</a></li>
-    <li><a href="https://www.kth.se/profile/162570/" target="_blank">KTH Profile</a></li>
-    <li><a href="http://www.mimersbrunn.se/Members/Hampus_Liljekvist_147882.html" target="_blank">Mimers Brunn</a></li>
+    {% for link in site.data.links.education %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Gaming</label></li>
-    <li><a href="http://www.battlefieldheroes.com/en/player/2302280599" target="_blank">Battlefield Heroes</a></li>
-    <li><a href="http://www.battlefieldbadcompany2.com/stats?persona=240682689&#038;platform=pc" target="_blank">Battlefield: Bad Company 2</a></li>
-    <li><a href="http://battlelog.battlefield.com/bf4/user/khlilje/" target="_blank">Battlelog</a></li>
-    <li><a href="http://forum.bioware.com/user/755021-hlilje/" target="_blank">BioWare Forums</a></li>
-    <li><a href="http://social.bioware.com/3138382/" target="_blank">BioWare Social Network</a></li>
-    <li><a href="http://forums.cdprojektred.com/members/3738857-hlilje" target="_blank">CD Project RED Forums</a></li>
-    <li><a href="http://www.gamereactor.se/krypin/Superkargoeren/" target="_blank">Gamereactor</a></li>
-    <li><a href="http://live.xbox.com/Profile?gamertag=vaexelverkan" target="_blank">Games for Windows Live</a></li>
-    <li><a href="http://people.ign.com/superkargoeren" target="_blank">IGN</a></li>
-    <li><a href="http://social.bioware.com/n7hq/?name=Superkargen&#038;platform=pc" target="_blank">Mass Effect 3 N7 HQ</a></li>
-    <li><a href="https://secure.mycrysis.com/forums/memberlist.php?mode=viewprofile&#038;u=872366" target="_blank">MyCrysis</a></li>
-    <li><a href="http://forums.unknownworlds.com/profile/186414/hlilje" target="_blank">Natural Selection 2</a></li>
-    <li><a href="http://forums.nexusmods.com/index.php?/user/3602483-superkargoeren/" target="_blank">The Nexus Forums</a></li>
-    <li><a href="http://forum.paradoxplaza.com/forum/member.php?334673-Superkargoeren" target="_blank">Paradox Interactive Forums</a></li>
-    <li><a href="http://core.perfectworld.com//u/superkargen" target="_blank">Perfect World</a></li>
-    <li><a href="https://www.planetside2.com/players#!/5428082724807656833" target="_blank">PlanetSide 2</a></li>
-    <li><a href="http://www.quakelive.com/#!profile/summary/hlilje" target="_blank">Quake Live</a></li>
-    <li><a href="http://socialclub.rockstargames.com/member/hlilje" target="_blank">Rockstar Games Social Club</a></li>
-    <li><a href="https://tv.rockstargames.com/mytv/index/id/4528173" target="_blank">Rockstar Games Social Club TV</a></li>
-    <li><a href="http://eu.square-enix.com/en/account/4310377" target="_blank">Square Enix</a></li>
-    <li><a href="http://eu.battle.net/sc2/en/profile/1043944/1/hlilje/" target="_blank">StarCraft II</a></li>
-    <li><a href="http://steamcommunity.com/id/hlilje" target="_blank">Steam</a></li>
-    <li><a href="http://www.teamliquid.net/forum/profile.php?user=Superkargen" target="_blank">Team Liquid</a></li>
-    <li><a href="http://www.twitch.tv/superkargen" target="_blank">Twitch</a></li>
-    <li><a href="http://forums.ubi.com/member.php/1444031-hlilje" target="_blank">Ubisoft Forums</a></li>
-    <li><a href="https://forums.unrealtournament.com/member.php?197758-hlilje" target="_blank">Unreal Tournament Forums</a></li>
-    <li><a href="https://uplay.ubi.com/#!/en-GB/profile/hlilje" target="_blank">Uplay</a></li>
+    {% for link in site.data.links.gaming %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Graphics &amp; Design</label></li>
-    <li><a href="https://www.flickr.com/people/hlilje/" target="_blank">Flickr</a></li>
-    <li><a href="http://hlilje.imgur.com/" target="_blank">imgur</a></li>
-    <li><a href="https://instagram.com/khlilje/" target="_blank">Instagram</a></li>
-    <li><a href="https://picasaweb.google.com/105792360022890678502" target="_blank">Picasa Web Album</a></li>
+    {% for link in site.data.links.graphics-design %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Music &amp; Music Production</label></li>
-    <li><a href="https://hlilje.bandcamp.com/" target="_blank">Bandcamp</a></li>
-    <li><a href="http://www.discogs.com/user/Vaexelverkan" target="_blank">Discogs</a></li>
-    <li><a href="http://www.last.fm/music/Hampus+Liljekvist" target="_blank">Last.fm</a></li>
-    <li><a href="https://myspace.com/hlilje" target="_blank">MySpace</a></li>
-    <li><a href="http://www.last.fm/user/LordHali" target="_blank">Personal Last.fm Profile</a></li>
-    <li><a href="http://forum.renoise.com/index.php?/user/17818-hlilje/" target="_blank">Renoise Forums</a></li>
-    <li><a href="https://www.songkick.com/users/hlilje" target="_blank">Songkick</a></li>
-    <li><a href="https://soundcloud.com/hlilje" target="_blank">SoundCloud</a></li>
-    <li><a href="https://open.spotify.com/user/vaexelverkan" target="_blank">Spotify</a></li>
-    <li><a href="https://community.spotify.com/t5/user/viewprofilepage/user-id/576212" target="_blank">Spotify Community</a></li>
+    {% for link in site.data.links.music-musicproduction%}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Social</label></li>
-    <li><a href="https://www.change.org/users/hlilje" target="_blank">Change.org</a></li>
-    <li><a href="https://www.facebook.com/hampusliljekvist" target="_blank">Facebook</a></li>
-    <li><a href="https://plus.google.com/+HampusLiljekvist" target="_blank">Google+</a></li>
-    <li><a href="https://en.gravatar.com/hlilje" target="_blank">Gravatar</a></li>
-    <li><a href="https://www.linkedin.com/pub/hampus-liljekvist/46/72/902" target="_blank">LinkedIn</a></li>
-    <li><a href="https://www.reddit.com/user/Superkargoeren/" target="_blank">reddit</a></li>
-    <li><a href="https://twitter.com/hlilje" target="_blank">Twitter</a></li>
-    <li><a href="https://profile.live.com/cid-d48fae29737f2d8b/" target="_blank">Windows Live</a></li>
-    <li><a href="https://profile.yahoo.com/CKSE2ZFEJPIE57GPJYXWYH6QE4/" target="_blank">Yahoo!</a></li>
+    {% for link in site.data.links.social %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Software Development</label></li>
-    <li><a href="http://hlilje-app.appspot.com/" target="_blank">App Engine Playground</a></li>
-    <li><a href="https://bitbucket.org/hlilje" target="_blank">Bitbucket</a></li>
-    <li><a href="http://www.codecademy.com/hlilje" target="_blank">Codecademy</a></li>
-    <li><a href="https://www.digitalocean.com/community/users/hlilje" target="_blank">DigitalOcean Community</a></li>
-    <li><a href="https://github.com/hlilje" target="_blank">GitHub</a></li>
-    <li><a href="https://kth.kattis.com/users/hlilje" target="_blank">Kattis</a></li>
-    <li><a href="http://stackexchange.com/users/2232003/hampus-liljekvist" target="_blank">Stack Exchange</a></li>
-    <li><a href="https://forums.unrealengine.com/member.php?34829-hlilje" target="_blank">Unreal Engine Forums</a></li>
-    <li><a href="https://hlilje.visualstudio.com/" target="_blank">Visual Studio Online</a></li>
+    {% for link in site.data.links.software-development %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Technology</label></li>
-    <li><a href="http://www.sweclockers.com/profil/vaexelverkan" target="_blank">SweClockers.com</a></li>
-    <li><a href="http://ubuntuforums.org/member.php?u=1848619" target="_blank">Ubuntu Forums</a></li>
-    <li><a href="https://forums.virtualbox.org/memberlist.php?mode=viewprofile&amp;u=84235" target="_blank">VirtualBox Forums</a></li>
-    <li><a href="https://www.mywot.com/en/user/3701812" target="_blank">WOT</a></li>
+    {% for link in site.data.links.technology %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Various</label></li>
-    <li><a href="http://www.endomondo.com/profile/4111167" target="_blank">Endomondo</a></li>
-    <li><a href="http://www.matklubben.se/matklubben/Superkargoeren" target="_blank">Matklubben</a></li>
-    <li><a href="http://hlilje.wordpress.com/" target="_blank">Old WordPress Website</a></li>
-    <li><a href="https://trello.com/hlilje" target="_blank">Trello</a></li>
+    {% for link in site.data.links.various %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Video &amp; Film</label></li>
-    <li><a href="http://www.imdb.com/user/ur59667738/" target="_blank">IMDb</a></li>
-    <li><a href="https://vimeo.com/hlilje" target="_blank">Vimeo</a></li>
-    <li><a href="https://vine.co/hlilje" target="_blank">Vine</a></li>
-    <li><a href="http://www.voddler.com/en/profile/view/vaexelverkan/" target="_blank">Voddler</a></li>
-    <li><a href="https://www.youtube.com/user/HampusLiljekvist" target="_blank">YouTube</a></li>
+    {% for link in site.data.links.video-film %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
     <li class="divider"></li>
     <li><label>Writing &amp; Literature</label></li>
-    <li><a href="https://www.goodreads.com/user/show/41880573-hampus-liljekvist" target="_blank">Goodreads</a></li>
-    <li><a href="https://kindle.amazon.com/profile/Hampus-Liljekvist/28869870" target="_blank">Kindle</a></li>
-    <li><a href="http://markable.in/profiles/profile/hlilje/" target="_blank">Markable.in</a></li>
-    <li><a href="http://www.scribd.com/khlilje" target="_blank">Scribd</a></li>
-    <li><a href="http://help.sharelatex.com/help/users/3111290" target="_blank">ShareLaTeX Support</a></li>
-    <li><a href="http://hlilje.tumblr.com/" target="_blank">Tumblr</a></li>
+    {% for link in site.data.links.writing-literature %}
+      <li><a href="{{ link[1].url }}" target="_blank">{{ link[1].title }}</a></li>
+    {% endfor %}
   </ul>
 </aside>
