@@ -10003,3 +10003,9 @@ th.hide-for-touch {
     display: inline-block;
   }
 }
+/* line 148, ../scss/app.scss */
+figure {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}

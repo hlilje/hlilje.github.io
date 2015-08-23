@@ -141,3 +141,10 @@ $logo-size: rem-calc(64);
     display: inline-block;
   }
 }
+
+// HTML Tags
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+figure {
+  @include reset;
+}
