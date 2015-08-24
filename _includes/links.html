@@ -2,9 +2,9 @@
   <h2 class="subheader"><small>Links</small></h2>
   <ul class="side-nav">
     {% for category in site.data.links %}
-    <li><label>{{ category[0] }}</label></li>
+    <li><label>{{ category[0] | xml_escape }}</label></li>
     {% for link in category[1] %}
-      <li><a href="{{ link[1] }}" target="_blank">{{ link[0] }}</a></li>
+      <li><a href="{{ link[1] | xml_escape }}" target="_blank">{{ link[0] | xml_escape }}</a></li>
     {% endfor %}
     <li class="divider"></li>
     {% endfor %}
