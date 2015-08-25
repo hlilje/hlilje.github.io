@@ -1,4 +1,5 @@
 # Jekyll
+encoding: utf-8
 markdown: kramdown
 timezone: Europe/Stockholm
 
