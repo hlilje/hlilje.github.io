@@ -5,35 +5,11 @@ title: hlilje | Music
 
 <section>
   <article>
-    <h2>Music</h2>
-    <p>
-      Music has always been a part of my life, and since 2008 I have had a
-      personal music project on an on-and-off basis.  I took a break from
-      creating music in order to focus more on my programming skills, but
-      now I have gotten back into music production again.
-      <br><br>
-      I tend to produce semi-experimental electronic music spanning different
-      genres. My DAW of choice is <a href="http://www.renoise.com/">Renoise</a>,
-      an excellent tracker, though frustrating by nature. In addition to this
-      I use various plugins and samples.  I have also had my way with Cubase
-      and Ableton Live, though I now only use Renoise.
-      <br><br>
-      You will find my complete discography at <a href="https://hlilje.bandcamp.com/">Bandcamp</a>,
-      while you can find some songs and more random clips at <a href="https://soundcloud.com/hlilje">SoundCloud</a>.
-    </p>
-
-    <h3>Backtracker</h3>
-    <p>
-      My latest full album release is <a href="https://hlilje.bandcamp.com/album/backtracker">Backtracker</a>,
-      which I wrote a short <a href="http://hlilje.tumblr.com/post/91966633633/backtracker-album-reflection-comment">blog post</a>
-      about.
-    </p>
-
-    <h3>Spotify</h3>
-    <p>
-      Also don't forget to check out my <a href="https://open.spotify.com/user/vaexelverkan">Spotify profile</a>
-      for some sweet playlists!
-    </p>
+    {% for post in site.posts %}
+      {% if post.title == "music" %}
+        {{ post.content }}
+      {% endif %}
+    {% endfor %}
   </article>
 </section>
 

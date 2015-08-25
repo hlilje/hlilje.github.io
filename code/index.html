@@ -5,43 +5,10 @@ title: hlilje | Code
 
 <section>
   <article>
-    <h2>Code</h2>
-    <p>
-      I love software development, which is the reason for my computer science
-      studies and my future career path. Most of the major school projects I
-      have been involved, or created myself, is available on <a href="https://github.com/hlilje">GitHub</a>.
-      <br><br>
-      Some examples include building a <a href="https://github.com/hlilje/komp14-compiler">MiniJava compiler</a>
-      to Jasmin assembly code, building a <a href="https://github.com/hlilje/dgi14-voxels">procedural landscape voxel renderer</a>
-      using Perlin noise, developing <a href="https://github.com/mvk13ogb/qwait">QWait</a>,
-      the next generation lab queueing system for KTH CSC,
-      and building a <a href="https://github.com/hlilje/songmood">program</a>
-      for classifying song lyrics using sentiment analysis.
-      <br><br>
-      More complete project information is available on <a href="https://www.linkedin.com/pub/hampus-liljekvist/46/72/902">LinkedIn</a>
-      or my <a href="http://www.csc.kth.se/~hlilje/">KTH website</a>.
-    </p>
-
-    <h3>Game Development</h3>
-    <p>
-      I have created a couple of games in Java, but my <a href="https://github.com/hlilje/sfml-game">current game project</a>
-      is made in C++ using the SFML library.
-      This project is on hold while I spend more of my spare time on music
-      production.
-    </p>
-
-    <h3>Web Development</h3>
-    <p>
-      Most of my web development has been done in school or at work, but
-      personally I have this website to maintain.  I have also started a (Go)
-      <a href="http://hlilje-app.appspot.com/">Google App Engine application</a>
-      which I might turn into something wonderful, after I have thought of a
-      good webapp to create.
-    </p>
-
-    <h3>Dotfiles</h3>
-    <p>
-    <a href="https://github.com/hlilje/dotfiles">Dotfiles!</a>
-    </p>
+    {% for post in site.posts %}
+      {% if post.title == "code" %}
+        {{ post.content }}
+      {% endif %}
+    {% endfor %}
   </article>
 </section>
