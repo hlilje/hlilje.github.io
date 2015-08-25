@@ -140,6 +140,11 @@ $logo-size: rem-calc(64);
   section.top-bar-section {
     display: inline-block;
   }
+
+  // Custom class
+  .top-bar-title {
+    display: inline-block;
+  }
 }
 
 // HTML Tags
