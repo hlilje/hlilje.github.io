@@ -9939,7 +9939,7 @@ th.hide-for-touch {
 @media only screen and (min-width: 40.0625em) {
   /* line 81, ../scss/app.scss */
   .frontpage-links li + li:before {
-    content: " ≡ ";
+    content: " • ";
   }
 }
 

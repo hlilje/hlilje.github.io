@@ -80,7 +80,7 @@ $logo-size: rem-calc(64);
 
   li + li:before {
     @media #{$medium-up} {
-      content: " ≡ ";
+      content: " • ";
     }
 
     padding-left: rem-calc(10);
