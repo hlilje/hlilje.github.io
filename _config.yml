@@ -4,5 +4,7 @@ markdown: kramdown
 timezone: Europe/Stockholm
 
 # Site variables
+url: https://hlilje.com
+url_short: hlilje.com
+enforce_ssl: hlilje.com
 analytics: UA-55203713-1
-url: hlilje.com
