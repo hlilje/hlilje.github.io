@@ -9939,22 +9939,28 @@ th.hide-for-touch {
 @media only screen and (min-width: 40.0625em) {
   /* line 81, ../scss/app.scss */
   .frontpage-links li + li:before {
+    content: "";
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 81, ../scss/app.scss */
+  .frontpage-links li + li:before {
     content: " • ";
   }
 }
 
-/* line 91, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 .frontpage-logo {
   width: 4rem;
   height: 4rem;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 99, ../scss/app.scss */
 .frontpage-picture {
   padding-bottom: 2.5rem;
 }
 
-/* line 100, ../scss/app.scss */
+/* line 103, ../scss/app.scss */
 .frontpage-title {
   margin: 0;
   border: 0;
@@ -9970,7 +9976,7 @@ th.hide-for-touch {
   vertical-align: middle;
 }
 @media only screen and (max-width: 40em) {
-  /* line 100, ../scss/app.scss */
+  /* line 103, ../scss/app.scss */
   .frontpage-title {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -9978,13 +9984,13 @@ th.hide-for-touch {
 }
 
 @media only screen and (min-width: 64.0625em) {
-  /* line 120, ../scss/app.scss */
+  /* line 123, ../scss/app.scss */
   .large-right {
     float: right !important;
   }
 }
 
-/* line 126, ../scss/app.scss */
+/* line 129, ../scss/app.scss */
 .profile-picture {
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -9993,22 +9999,22 @@ th.hide-for-touch {
 }
 
 @media only screen and (min-width: 64.0625em) {
-  /* line 136, ../scss/app.scss */
+  /* line 139, ../scss/app.scss */
   nav.top-bar {
     text-align: center;
   }
 
-  /* line 140, ../scss/app.scss */
+  /* line 143, ../scss/app.scss */
   section.top-bar-section {
     display: inline-block;
   }
 
-  /* line 145, ../scss/app.scss */
+  /* line 148, ../scss/app.scss */
   .top-bar-title {
     display: inline-block;
   }
 }
-/* line 153, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
 figure {
   margin: 0;
   border: 0;
