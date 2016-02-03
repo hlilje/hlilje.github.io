@@ -1,11 +1,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="The official website of Hampus Liljekvist" />
+  {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
   <meta name="keywords" content="Hampus Liljekvist,hlilje,personal,website,homepage,official" />
   <meta name="author" content="Hampus Liljekvist" />
   <title>{{ page.title }}</title>
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''
+                                                        | replace:'about.html','about'
+                                                        | replace:'work.html','work'
+                                                        | replace:'code.html','code'
+                                                        | replace:'music.html','music' }}">
   <link rel="author" href="/humans.txt" />
   <link rel="stylesheet" href="/stylesheets/app.css" />
   <script src="/bower_components/modernizr/modernizr.js"></script>
