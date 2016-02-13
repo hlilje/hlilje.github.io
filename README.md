@@ -6,17 +6,15 @@
 bundle install                          // Install dependencies
 bundle update                           // Update ALL dependencies
 bower update                            // Update Foundation
-bundle exec compass watch               // Make Compass watch for changes
-bundle exec jekyll build --watch        // Make Jekyll watch for changes
-bundle exec jekyll serve                // Start local Jekyll server
+bundle exec compass watch               // Compile SCSS and watch for changes
+bundle exec jekyll build --watch        // Build site and watch for changes
+bundle exec jekyll serve                // Start local server and watch for changes
 ```
 
 ### Quick Start Server
 
 ```
-bundle exec compass watch &;\
-bundle exec jekyll build --watch &;\
-bundle exec jekyll serve &
+bundle exec compass watch &; bundle exec jekyll serve &
 ```
 
 ## Useful URLs
