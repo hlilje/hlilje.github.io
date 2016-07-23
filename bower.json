@@ -1,13 +1,13 @@
 {
-  "name": "foundation-sites-template",
+  "name": "hlilje-website",
   "version": "1.0.0",
   "authors": [
-    "ZURB <foundation@zurb.com>"
+    "Hampus Liljekvist"
   ],
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Hampus Liljekvist's personal website.",
   "main": "index.html",
   "license": "MIT",
-  "homepage": "http://foundation.zurb.com",
+  "homepage": "https://hlilje.com",
   "dependencies": {
     "foundation-sites": "~6.1.2",
     "motion-ui": "~1.1.0",
@@ -17,9 +17,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "private": true
 }

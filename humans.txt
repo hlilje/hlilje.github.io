@@ -13,8 +13,6 @@
 
 /* SITE */
   Last update: {{ site.time | date: "%F" }}
-  Standards: HTML5, SCSS/CSS3, JS
-/* TODO: Update components */
-  Components: ZURB Foundation, Jekyll, jQuery, Bundler, Bower, Compass, Sass,
-    Modernizr, FastClick, Google Fonts, Google Analytics, Font Awesome
-  Software: Zsh, tmux, Vim, Git
+  Standards: HTML5, SCSS, CSS3, JavaScript
+  Components: ZURB Foundation, Jekyll, jQuery
+  Software: Git

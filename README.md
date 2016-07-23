@@ -2,22 +2,11 @@
 
 ## Useful Commands
 
-# TODO: Update commands
-
 ```
-bundle install                          // Install dependencies
-bundle update                           // Update ALL dependencies
-bower update                            // Update Foundation
-bundle exec compass watch               // Compile SCSS and watch for changes
-bundle exec jekyll build --watch        // Build site and watch for changes
-bundle exec jekyll serve                // Start local server and watch for changes
-```
-
-### Quick Start Server
-
-```
-bundle exec compass watch &; bundle exec jekyll serve &
-```
+foundation update           // Update Foundation
+foundation watch            // Have Foundation watch for changes
+jekyll build                // Build site
+jekyll serve                // Start local server and watch for changes
 
 ## Useful URLs
 

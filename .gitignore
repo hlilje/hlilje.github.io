@@ -2,7 +2,6 @@
 /_site/*
 /etc/*
 /node_modules/*
-npm-debug.log
 
 # Include these folders because Jekyll can't compile Foundation
 # /bower_components/*
