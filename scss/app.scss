@@ -1,158 +1,50 @@
-@import "normalize";
-@import "settings";
-@import "foundation";
-@import url(//fonts.googleapis.com/css?family=Open+Sans|Montserrat);
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@charset 'utf-8';
 
-// Custom Variables
-// - - - - - - - - - - - - - - - - - - - - - - - - -
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
 
-$jet: #222222;
-$vapor: #F6F6F6;
+@include foundation-global-styles;
+@include foundation-grid;
+// @include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+// @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+// @include foundation-flex-classes;
 
-$theme-font-family-title: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica,
-    Roboto, Arial, sans-serif;
-$theme-bg-accent-colour: $vapor;
-$theme-font-accent-colour: $jet;
-$logo-size: rem-calc(64);
-
-// Mixins
-// - - - - - - - - - - - - - - - - - - - - - - - - -
-
-@mixin reset {
-  margin: 0;
-  border: 0;
-  padding: 0;
-}
-
-@mixin round {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-}
-
-// Custom Classes
-// - - - - - - - - - - - - - - - - - - - - - - - - -
-
-.footer-bottom {
-  padding-top: rem-calc(20);
-  background: $theme-bg-accent-colour;
-  color: $theme-font-accent-colour;
-
-  li:first-child {
-    margin-left: 0;
-  }
-
-  @media #{$small-up} {
-    text-align: center;
-
-    li {
-      float: none;
-    }
-  }
-  @media #{$large-up} {
-    text-align: left;
-
-    li {
-      float: left;
-    }
-  }
-}
-
-.frontpage-links {
-  @include reset;
-
-  padding-bottom: rem-calc(40);
-  font-family: $theme-font-family-title;
-  font-size: rem-calc(20);
-  text-align: center;
-  text-transform: uppercase;
-  list-style: none;
-
-  li {
-    display: inline-block;
-
-    @media #{$small-only} {
-      padding-left: rem-calc(10);
-      padding-right: rem-calc(10);
-    }
-  }
-
-  li + li:before {
-    @media #{$medium-up} {
-      content: "";
-    }
-    @media #{$large-up} {
-      content: " • ";
-    }
-
-    padding-left: rem-calc(10);
-    padding-right: rem-calc(10);
-  }
-}
-
-.frontpage-logo {
-  width: $logo-size;
-  height: $logo-size;
-}
-
-.frontpage-picture {
-  padding-bottom: rem-calc(40);
-}
-
-.frontpage-title {
-  @include reset;
-
-  display: inline-block;
-
-  @media #{$small-only} {
-    padding-left: rem-calc(20);
-    padding-right: rem-calc(20);
-  }
-  padding-top: rem-calc(20);
-  padding-bottom: rem-calc(20);
-
-  font-family: $theme-font-family-title;
-  font-size: rem-calc(50);
-  color: $black;
-  text-align: center;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-
-.large-right {
-  @media #{$large-up} {
-    float: right !important;
-  }
-}
-
-.profile-picture {
-  @include round;
-
-  margin-bottom: rem-calc(20);
-}
-
-// Foundation Classes
-// - - - - - - - - - - - - - - - - - - - - - - - - -
-
-@media #{$topbar-media-query} {
-  nav.top-bar {
-    text-align: center;
-  }
-
-  section.top-bar-section {
-    display: inline-block;
-  }
-
-  // Custom class
-  .top-bar-title {
-    display: inline-block;
-  }
-}
-
-// HTML Tags
-// - - - - - - - - - - - - - - - - - - - - - - - - -
-
-figure {
-  @include reset;
-}
+@include motion-ui-transitions;
+@include motion-ui-animations;

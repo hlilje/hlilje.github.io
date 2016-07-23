@@ -1,7 +1,9 @@
 *.DS_Store
 /_site/*
-/.sass-cache/*
+/etc/*
+/node_modules/*
+npm-debug.log
 
-# Include these folders because Jekyll cannot compile Foundation
+# Include these folders because Jekyll can't compile Foundation
 # /bower_components/*
-# /stylesheets/*
+# /css/*

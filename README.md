@@ -2,6 +2,8 @@
 
 ## Useful Commands
 
+# TODO: Update commands
+
 ```
 bundle install                          // Install dependencies
 bundle update                           // Update ALL dependencies
