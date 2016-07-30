@@ -3,6 +3,8 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import url(//fonts.googleapis.com/css?family=Open+Sans|Montserrat);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -48,3 +50,147 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// Custom Variables
+// ----------------
+
+$jet: #222222;
+$vapor: #F6F6F6;
+
+$theme-font-family-title: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica,
+    Roboto, Arial, sans-serif;
+$theme-bg-accent-colour: $vapor;
+$theme-font-accent-colour: $jet;
+$logo-size: rem-calc(64);
+
+// Mixins
+// ------
+
+@mixin reset {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+@mixin round {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+// Custom Classes
+// --------------
+
+.footer-bottom {
+  padding-top: rem-calc(20);
+  background: $theme-bg-accent-colour;
+  color: $theme-font-accent-colour;
+
+  li {
+    display: inline-block;
+
+    time {
+      padding: 0.7rem 1rem; // Same as .menu > li > a
+    }
+  }
+
+  @include breakpoint(small up) {
+    text-align: center;
+  }
+  @include breakpoint(large up) {
+    text-align: left;
+  }
+}
+
+.frontpage-links {
+  @include reset;
+
+  padding-bottom: rem-calc(40);
+  font-family: $theme-font-family-title;
+  font-size: rem-calc(20);
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none;
+
+  li {
+    display: inline-block;
+
+    @include breakpoint(small only) {
+      padding-left: rem-calc(10);
+      padding-right: rem-calc(10);
+    }
+  }
+
+  li + li:before {
+    @include breakpoint(medium up) {
+      content: "";
+    }
+    @include breakpoint(large up) {
+      content: " • ";
+    }
+
+    padding-left: rem-calc(10);
+    padding-right: rem-calc(10);
+  }
+}
+
+.frontpage-logo {
+  width: $logo-size;
+  height: $logo-size;
+}
+
+.frontpage-picture {
+  padding-bottom: rem-calc(40);
+}
+
+.frontpage-title {
+  @include reset;
+
+  display: inline-block;
+
+  @include breakpoint(small only) {
+    padding-left: rem-calc(20);
+    padding-right: rem-calc(20);
+  }
+  padding-top: rem-calc(20);
+  padding-bottom: rem-calc(20);
+
+  font-family: $theme-font-family-title;
+  font-size: rem-calc(50);
+  color: $black;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.large-right {
+  @include breakpoint(large up) {
+    float: right !important;
+  }
+}
+
+.profile-picture {
+  @include round;
+
+  margin-bottom: rem-calc(20);
+}
+
+// Foundation Classes
+// ------------------
+
+@include breakpoint($topbar-unstack-breakpoint) {
+  nav.top-bar {
+    text-align: center;
+  }
+
+  nav.top-bar li {
+    display: inline-block;
+  }
+}
+
+// HTML Tags
+// ---------
+
+figure {
+  @include reset;
+}
