@@ -3,7 +3,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
-@import url(//fonts.googleapis.com/css?family=Open+Sans|Montserrat);
+@import url(//fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro|Montserrat);
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
 @include foundation-global-styles;
@@ -54,10 +54,9 @@
 // Custom Variables
 // ----------------
 
-$theme-font-family-title: 'Montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$theme-background-accent-colour: blue;
-$theme-font-accent-colour: red;
 $logo-size: rem-calc(64);
+$theme-background-accent-colour: $light-gray;
+$theme-font-family-title: 'Montserrat', $header-font-family;
 
 // Mixins
 // ------
@@ -80,12 +79,22 @@ $logo-size: rem-calc(64);
 .external-links {
   background: $theme-background-accent-colour;
   padding: 1rem;
+
+  h2 small {
+    color: $dark-gray;
+  }
 }
 
 .footer-bottom {
-  padding-top: rem-calc(20);
   background: $theme-background-accent-colour;
-  color: $theme-font-accent-colour;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+
+  @include breakpoint(small) {
+    text-align: center;
+  }
+  @include breakpoint(large) {
+    text-align: left;
+  }
 
   li {
     display: inline-block;
@@ -94,19 +103,12 @@ $logo-size: rem-calc(64);
       padding: 0.7rem 1rem; // Same as .menu > li > a
     }
   }
-
-  @include breakpoint(small) {
-    text-align: center;
-  }
-  @include breakpoint(large) {
-    text-align: left;
-  }
 }
 
 .frontpage-links {
   @include reset;
 
-  padding-bottom: rem-calc(40);
+  padding: 0 0 rem-calc(40) 0;
   font-family: $theme-font-family-title;
   font-size: rem-calc(20);
   text-align: center;
@@ -117,21 +119,19 @@ $logo-size: rem-calc(64);
     display: inline-block;
 
     @include breakpoint(small only) {
-      padding-left: rem-calc(10);
-      padding-right: rem-calc(10);
+      padding: 0 rem-calc(10) 0 rem-calc(10);
     }
   }
 
   li + li:before {
+    padding: 0 rem-calc(10) 0 rem-calc(10);
+
     @include breakpoint(medium) {
       content: "";
     }
     @include breakpoint(large) {
       content: " • ";
     }
-
-    padding-left: rem-calc(10);
-    padding-right: rem-calc(10);
   }
 }
 
@@ -141,39 +141,28 @@ $logo-size: rem-calc(64);
 }
 
 .frontpage-picture {
-  padding-bottom: rem-calc(40);
+  padding: 0 0 rem-calc(40) 0;
 }
 
 .frontpage-title {
   @include reset;
 
-  display: inline-block;
-
   @include breakpoint(small only) {
-    padding-left: rem-calc(20);
-    padding-right: rem-calc(20);
+    padding: 0 rem-calc(20) 0 rem-calc(20);
   }
-  padding-top: rem-calc(20);
-  padding-bottom: rem-calc(20);
-
+  padding: rem-calc(20) 0 rem-calc(20) 0;
+  display: inline-block;
   font-family: $theme-font-family-title;
   font-size: rem-calc(50);
-  color: $black;
   text-align: center;
-  text-transform: uppercase;
   vertical-align: middle;
-}
-
-.large-right {
-  @include breakpoint(large) {
-    float: right !important;
-  }
+  text-transform: uppercase;
 }
 
 .profile-picture {
   @include round;
 
-  margin-bottom: rem-calc(20);
+  margin: 0 0 rem-calc(20) 0;
 }
 
 // Foundation Classes
@@ -196,7 +185,6 @@ $logo-size: rem-calc(64);
       display: none;
     }
   }
-
   @include breakpoint($topbar-unstack-breakpoint) {
     .title-bar {
       display: none;
@@ -208,8 +196,12 @@ $logo-size: rem-calc(64);
   float: none;
 
   h1 {
-    margin-bottom: 0;
+    margin: 0;
     font-size: rem-calc(20);
+
+    a {
+      color: $body-font-color;
+    }
   }
 }
 

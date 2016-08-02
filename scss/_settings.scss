@@ -49,8 +49,8 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #2199e8,
-  secondary: #777,
+  primary: #6c7a89,
+  secondary: #bdc3c7,
   success: #3adb76,
   warning: #ffae00,
   alert: #ec5840,
@@ -62,7 +62,7 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Roboto', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -102,7 +102,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Montserrat', $body-font-family;
+$header-font-family: 'Source Sans Pro', $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -534,12 +534,12 @@ $thumbnail-radius: $global-radius;
 // 34. Title Bar
 // -------------
 
-$titlebar-background: $black;
-$titlebar-color: $white;
-$titlebar-padding: 0.5rem;
+$titlebar-background: $light-gray;
+$titlebar-color: $body-font-color;
+$titlebar-padding: 1rem;
 $titlebar-text-font-weight: bold;
-$titlebar-icon-color: $white;
-$titlebar-icon-color-hover: $medium-gray;
+$titlebar-icon-color: $body-font-color;
+$titlebar-icon-color-hover: $dark-gray;
 $titlebar-icon-spacing: 0.25rem;
 
 // 35. Tooltip
@@ -558,9 +558,9 @@ $tooltip-radius: $global-radius;
 // 36. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-padding: 1rem;
+$topbar-background: $titlebar-background;
 $topbar-submenu-background: $topbar-background;
-$topbar-title-spacing: 1rem;
+$topbar-title-spacing: 2rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
