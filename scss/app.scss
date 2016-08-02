@@ -54,13 +54,9 @@
 // Custom Variables
 // ----------------
 
-$jet: #222222;
-$vapor: #F6F6F6;
-
-$theme-font-family-title: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica,
-    Roboto, Arial, sans-serif;
-$theme-bg-accent-colour: $vapor;
-$theme-font-accent-colour: $jet;
+$theme-font-family-title: 'Montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$theme-background-accent-colour: blue;
+$theme-font-accent-colour: red;
 $logo-size: rem-calc(64);
 
 // Mixins
@@ -81,9 +77,14 @@ $logo-size: rem-calc(64);
 // Custom Classes
 // --------------
 
+.external-links {
+  background: $theme-background-accent-colour;
+  padding: 1rem;
+}
+
 .footer-bottom {
   padding-top: rem-calc(20);
-  background: $theme-bg-accent-colour;
+  background: $theme-background-accent-colour;
   color: $theme-font-accent-colour;
 
   li {
@@ -94,10 +95,10 @@ $logo-size: rem-calc(64);
     }
   }
 
-  @include breakpoint(small up) {
+  @include breakpoint(small) {
     text-align: center;
   }
-  @include breakpoint(large up) {
+  @include breakpoint(large) {
     text-align: left;
   }
 }
@@ -122,10 +123,10 @@ $logo-size: rem-calc(64);
   }
 
   li + li:before {
-    @include breakpoint(medium up) {
+    @include breakpoint(medium) {
       content: "";
     }
-    @include breakpoint(large up) {
+    @include breakpoint(large) {
       content: " • ";
     }
 
@@ -164,7 +165,7 @@ $logo-size: rem-calc(64);
 }
 
 .large-right {
-  @include breakpoint(large up) {
+  @include breakpoint(large) {
     float: right !important;
   }
 }
@@ -181,10 +182,34 @@ $logo-size: rem-calc(64);
 @include breakpoint($topbar-unstack-breakpoint) {
   nav.top-bar {
     text-align: center;
+
+    ul.menu li {
+      display: inline-block;
+    }
+  }
+}
+
+// Stop other bar from being briefly visible
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
   }
 
-  nav.top-bar li {
-    display: inline-block;
+  @include breakpoint($topbar-unstack-breakpoint) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
+.top-bar-title {
+  float: none;
+
+  h1 {
+    margin-bottom: 0;
+    font-size: rem-calc(20);
   }
 }
 

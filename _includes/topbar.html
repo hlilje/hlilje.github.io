@@ -1,17 +1,20 @@
 <div class="title-bar" data-responsive-toggle="navigation-topbar" data-hide-for="medium">
   <button class="menu-icon" type="button" data-toggle></button>
-  <div class="title-bar-title">Menu</div>
+  <div class="title-bar-title">hlilje</div>
 </div>
 
 <nav class="top-bar" id="navigation-topbar">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text"><header><h1><a href="/">hlilje</a></h1></header></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/work">Work</a></li>
-      <li><a href="/code">Code</a></li>
-      <li><a href="/music">Music</a></li>
-      <li><a href="http://blog.{{ site.url_short }}">Blog</a></li>
-      <li><a href="https://app.{{ site.url_short }}">App</a></li>
-      <li><a href="{{ site.data.links['Education']['KTH Homepage'] | xml_escape }}">KTH</a></li>
-    </ul>
+  <ul class="vertical medium-horizontal menu">
+  <!-- <ul class="menu"> -->
+    <li class="top-bar-title">
+      <header><h1><a href="/">hlilje</a></h1></header>
+    </li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/work">Work</a></li>
+    <li><a href="/code">Code</a></li>
+    <li><a href="/music">Music</a></li>
+    <li><a href="http://blog.{{ site.url_short }}">Blog</a></li>
+    <li><a href="https://app.{{ site.url_short }}">App</a></li>
+    <li><a href="{{ site.data.links['Education']['KTH Homepage'] | xml_escape }}">KTH</a></li>
+  </ul>
 </nav>
