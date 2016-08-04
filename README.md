@@ -7,6 +7,7 @@ foundation update           // Update Foundation
 foundation watch            // Have Foundation watch for changes
 jekyll build                // Build site
 jekyll serve                // Start local server and watch for changes
+```
 
 ## Useful URLs
 

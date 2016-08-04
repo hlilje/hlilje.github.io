@@ -87,19 +87,15 @@ $title-font-family: 'Montserrat', $header-font-family;
 .footer-bottom {
   background: $titlebar-background;
   padding: 1rem 0.5rem 1rem 0.5rem;
-
-  @include breakpoint(small) {
-    text-align: center;
-  }
-  @include breakpoint(large) {
-    text-align: left;
-  }
+  text-align: center;
 
   li {
     display: inline-block;
 
-    time {
-      padding: 0.7rem 1rem; // Same as .menu > li > a
+    @include breakpoint(small only) {
+      a {
+        padding: 0.35rem 0.5rem
+      }
     }
   }
 }
@@ -137,10 +133,6 @@ $title-font-family: 'Montserrat', $header-font-family;
 .frontpage-logo {
   width: $logo-size;
   height: $logo-size;
-}
-
-.frontpage-picture {
-  padding: 0 0 rem-calc(40) 0;
 }
 
 .frontpage-title {
