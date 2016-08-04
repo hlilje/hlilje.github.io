@@ -86,7 +86,7 @@ $title-font-family: 'Montserrat', $header-font-family;
 
 .footer-bottom {
   background: $titlebar-background;
-  padding: 1rem 0.5rem 1rem 0.5rem;
+  padding: 1rem;
   text-align: center;
 
   li {
@@ -114,12 +114,12 @@ $title-font-family: 'Montserrat', $header-font-family;
     display: inline-block;
 
     @include breakpoint(small only) {
-      padding: 0 rem-calc(10) 0 rem-calc(10);
+      padding: 0 rem-calc(10);
     }
   }
 
   li + li:before {
-    padding: 0 rem-calc(10) 0 rem-calc(10);
+    padding: 0 rem-calc(10);
 
     @include breakpoint(medium) {
       content: "";
@@ -139,12 +139,12 @@ $title-font-family: 'Montserrat', $header-font-family;
   @include reset;
 
   @include breakpoint(small only) {
-    padding: 0 rem-calc(20) 0 rem-calc(20);
+    padding: 0 rem-calc(20);
   }
-  padding: rem-calc(20) 0 rem-calc(20) 0;
+  padding: rem-calc(20) 0;
   display: inline-block;
   font-family: $title-font-family;
-  font-size: rem-calc(50);
+  font-size: rem-calc(40);
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
