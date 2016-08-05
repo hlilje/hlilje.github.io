@@ -137,6 +137,11 @@ $title-font-family: 'Montserrat', $header-font-family;
   }
 }
 
+.portfolio div div {
+  padding: 0 0 rem-calc(20) 0;
+  text-align: center;
+}
+
 .profile-picture {
   @include round;
 
