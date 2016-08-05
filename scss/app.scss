@@ -18,7 +18,7 @@
 // @include foundation-badge;
 // @include foundation-breadcrumbs;
 // @include foundation-button-group;
-// @include foundation-callout;
+@include foundation-callout;
 // @include foundation-close-button;
 @include foundation-menu;
 @include foundation-menu-icon;
@@ -54,7 +54,7 @@
 // Custom Variables
 // ----------------
 
-$logo-size: rem-calc(64);
+$logo-size: rem-calc(40);
 $title-font-family: 'Montserrat', $header-font-family;
 
 // Mixins
@@ -100,54 +100,41 @@ $title-font-family: 'Montserrat', $header-font-family;
   }
 }
 
-.frontpage-links {
-  @include reset;
-
-  padding: 0 0 rem-calc(40) 0;
-  font-family: $title-font-family;
-  font-size: rem-calc(20);
-  text-align: center;
-  text-transform: uppercase;
-  list-style: none;
-
-  li {
-    display: inline-block;
-
-    @include breakpoint(small only) {
-      padding: 0 rem-calc(10);
-    }
-  }
-
-  li + li:before {
-    padding: 0 rem-calc(10);
-
-    @include breakpoint(medium) {
-      content: "";
-    }
-    @include breakpoint(large) {
-      content: " • ";
-    }
-  }
-}
-
-.frontpage-logo {
-  width: $logo-size;
-  height: $logo-size;
-}
-
 .frontpage-title {
-  @include reset;
-
-  @include breakpoint(small only) {
-    padding: 0 rem-calc(20);
-  }
-  padding: rem-calc(20) 0;
-  display: inline-block;
-  font-family: $title-font-family;
-  font-size: rem-calc(40);
+  padding: rem-calc(20) rem-calc(20);
   text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
+
+  h2, img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h2 {
+    @include reset;
+
+    font-family: $title-font-family;
+    text-transform: uppercase;
+
+    @include breakpoint(small) {
+      font-size: rem-calc(20);
+    }
+    @include breakpoint(medium) {
+      font-size: rem-calc(40);
+    }
+  }
+
+  img {
+    @include breakpoint(small) {
+      width: $logo-size / 2;
+      height: $logo-size / 2;
+      margin: 0 rem-calc(5) 0 0;
+    }
+    @include breakpoint(medium) {
+      width: $logo-size;
+      height: $logo-size;
+      margin: 0 rem-calc(10) 0 0;
+    }
+  }
 }
 
 .profile-picture {
@@ -187,7 +174,8 @@ $title-font-family: 'Montserrat', $header-font-family;
   float: none;
 
   h1 {
-    margin: 0;
+    @include reset;
+
     font-size: rem-calc(20);
 
     a {
