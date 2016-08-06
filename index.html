@@ -14,62 +14,18 @@ description: "The official website of Hampus Liljekvist"
   <div class="row">
     <div class="large-8 medium-10 small-12 columns small-centered">
       <div class="portfolio" data-equalizer data-equalize-on="small">
-        <div class="row">
-          {% include portfolio-item.html
-            param="Paradox Development Studio"
-            param2="https://www.paradoxplaza.com/"
-          %}
-          {% include portfolio-item.html
-            param="Master Thesis"
-            param2="http://kth.diva-portal.org/smash/record.jsf?pid=diva2:947287"
-          %}
-          {% include portfolio-item.html
-            param="MiniJava Compiler"
-            param2="https://github.com/hlilje/komp14-compiler"
-          %}
-        </div>
-        <div class="row">
-          {% include portfolio-item.html
-            param="Voxel Landscape Generator"
-            param2="https://github.com/hlilje/dgi14-voxels"
-          %}
-          {% include portfolio-item.html
-            param="QWait"
-            param2="http://qwait.csc.kth.se/"
-          %}
-          {% include portfolio-item.html
-            param="Lua Love Snake"
-            param2="https://github.com/hlilje/lua-love-snake"
-          %}
-        </div>
-        <div class="row">
-          {% include portfolio-item.html
-            param="Song Lyrics Sentiment Classifier"
-            param2="https://github.com/hlilje/songmood"
-          %}
-          {% include portfolio-item.html
-            param="MCMC Simulation"
-            param2="https://github.com/hlilje/mcmc-train"
-          %}
-          {% include portfolio-item.html
-            param="Generic Text Adventure Game"
-            param2="https://github.com/hlilje/text-adventure"
-          %}
-        </div>
-        <div class="row">
-          {% include portfolio-item.html
-            param="Linux Shell"
-            param2="https://github.com/hlilje/simple-shell"
-          %}
-          {% include portfolio-item.html
-            param="Bachelor Thesis"
-            param2="http://kth.diva-portal.org/smash/record.jsf?pid=diva2:769905"
-          %}
-          {% include portfolio-item.html
-            param="Pessimist"
-            param2="https://soundcloud.com/hlilje/sets/pessimist"
-          %}
-        </div>
+        {% for item in site.data.portfolio-items %}
+          {% assign ix = forloop.index | modulo: 3 %}
+          {% if ix == 1 %}
+            <div class="row">
+          {% endif %}
+          <div class="medium-4 columns" data-equalizer-watch>
+            <a href="{{ item[1] | xml_escape }}">{{ item[0] | xml_escape }}</a>
+          </div>
+          {% if ix == 0 %}
+            </div>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
   </div>
