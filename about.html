@@ -6,24 +6,10 @@ description: "Information about me and this website"
 
 <section>
   <article>
-    <h2>About</h2>
-    <div class="row">
-      <div class="small-6 columns small-centered">
-        <figure>
-          <img src="/images/profile-picture.jpg"
-               srcset="/images/profile-picture.jpg 1x, /images/profile-picture@2x.jpg 2x"
-               alt="Profile picture" class="profile-picture">
-        </figure>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns">
-        {% for post in site.posts %}
-          {% if post.title == "About" %}
-            {{ post.content }}
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
+    {% for post in site.posts %}
+      {% if post.title == "About" %}
+        {{ post.content }}
+      {% endif %}
+    {% endfor %}
   </article>
 </section>
