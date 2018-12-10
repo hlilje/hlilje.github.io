@@ -1,41 +1,31 @@
-"Education":
-    "KTH Homepage": http://www.csc.kth.se/~hlilje/
-    "KTH Profile": https://www.kth.se/profile/hlilje/
-"Games":
-    "IGDB": https://www.igdb.com/users/hlilje
-    "Paradox Interactive Forums": https://forum.paradoxplaza.com/forum/index.php?members/superkargoeren.334673/
-    "StarCraft II": http://eu.battle.net/sc2/en/profile/1043944/1/hlilje/
-    "Steam": http://steamcommunity.com/id/hlilje
-    "Twitch": https://www.twitch.tv/hlilje
-"Graphics and Photography":
-    "Flickr": https://www.flickr.com/people/hlilje/
-    "Instagram": https://instagram.com/hlilje/
-"Music":
-    "Bandcamp Fan": https://bandcamp.com/hlilje
-    "Last.fm Profile": http://www.last.fm/user/LordHali
-    "Songkick": https://www.songkick.com/users/hlilje
-    "Spotify": https://open.spotify.com/user/vaexelverkan
-"Music Production":
-    "Bandcamp": https://hlilje.bandcamp.com/
-    "Last.fm": http://www.last.fm/music/Hampus+Liljekvist
-    "SoundCloud": https://soundcloud.com/hlilje
-"Social":
-    "Facebook": https://www.facebook.com/hampusliljekvist
-    "Google+": https://plus.google.com/+HampusLiljekvist
-    "LinkedIn": https://www.linkedin.com/in/hlilje
-    "reddit": https://www.reddit.com/user/Superkargoeren/
-    "Twitter": https://twitter.com/hlilje
-"Software Development":
-    "Bitbucket": https://bitbucket.org/hlilje
-    "GitHub": https://github.com/hlilje
-    "Kattis": https://kth.kattis.com/users/hlilje
-    "Stack Exchange": http://stackexchange.com/users/2232003/hampus-liljekvist
-"Training":
-    "Endomondo": http://www.endomondo.com/profile/4111167
-    "Runkeeper": https://runkeeper.com/user/hlilje/profile
-"Video and Film":
-    "IMDb": http://www.imdb.com/user/ur59667738/
-    "YouTube": https://www.youtube.com/user/HampusLiljekvist
-"Writing and Literature":
-    "Goodreads": https://www.goodreads.com/hlilje
-    "Tumblr": http://hlilje.tumblr.com/
+bandcamp_fan: ["Bandcamp Fan", "https://bandcamp.com/hlilje"]
+bandcamp: ["Bandcamp", "https://hlilje.bandcamp.com/"]
+bitbucket: ["Bitbucket", "https://bitbucket.org/hlilje"]
+endomondo: ["Endomondo", "http://www.endomondo.com/profile/4111167"]
+facebook: ["Facebook", "https://www.facebook.com/hampusliljekvist"]
+flickr: ["Flickr", "https://www.flickr.com/people/hlilje/"]
+github: ["GitHub", "https://github.com/hlilje"]
+goodreads: ["Goodreads", "https://www.goodreads.com/hlilje"]
+google_plus: ["Google+", "https://plus.google.com/+HampusLiljekvist"]
+igdb: ["IGDB", "https://www.igdb.com/users/hlilje"]
+imdb: ["IMDb", "http://www.imdb.com/user/ur59667738/"]
+instagram: ["Instagram", "https://instagram.com/hlilje/"]
+kth_homepage: ["KTH Homepage", "http://www.csc.kth.se/~hlilje/"]
+kth_profile: ["KTH Profile", "https://www.kth.se/profile/hlilje/"]
+kattis: ["Kattis", "https://kth.kattis.com/users/hlilje"]
+lastfm_profile: ["Last.fm Profile", "http://www.last.fm/user/LordHali"]
+lastfm: ["Last.fm", "http://www.last.fm/music/Hampus+Liljekvist"]
+linkedin: ["LinkedIn", "https://www.linkedin.com/in/hlilje/"]
+paradox_forums: ["Paradox Interactive Forums", "https://forum.paradoxplaza.com/forum/index.php?members/superkargoeren.334673/"]
+runkeeper: ["Runkeeper", "https://runkeeper.com/user/hlilje/profile"]
+songkick: ["Songkick", "https://www.songkick.com/users/hlilje"]
+soundcloud: ["SoundCloud", "https://soundcloud.com/hlilje"]
+spotify: ["Spotify", "https://open.spotify.com/user/vaexelverkan"]
+stack_exchange: ["Stack Exchange", "http://stackexchange.com/users/2232003/hampus-liljekvist"]
+starcraft: ["StarCraft II", "http://eu.battle.net/sc2/en/profile/1043944/1/hlilje/"]
+steam: ["Steam", "http://steamcommunity.com/id/hlilje"]
+tumblr: ["Tumblr", "http://hlilje.tumblr.com/"]
+twitch: ["Twitch", "https://www.twitch.tv/hlilje"]
+twitter: ["Twitter", "https://twitter.com/hlilje"]
+youtube: ["YouTube", "https://www.youtube.com/user/HampusLiljekvist"]
+reddit: ["reddit", "https://www.reddit.com/user/Superkargoeren/"]
