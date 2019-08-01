@@ -6,9 +6,9 @@ description: "Information about me and this website"
 
 <section>
   <article>
-    {% for post in site.posts %}
-      {% if post.title == "About" %}
-        {{ post.content }}
+    {% for page in site.pages %}
+      {% if page.title == "About" %}
+        {{ page.content }}
       {% endif %}
     {% endfor %}
   </article>

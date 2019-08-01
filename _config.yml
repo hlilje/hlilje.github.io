@@ -1,4 +1,6 @@
 # Jekyll
+collections:
+    - pages
 encoding: utf-8
 exclude:
     - bower.json

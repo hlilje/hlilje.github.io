@@ -6,9 +6,9 @@ description: "Missing page"
 
 <section>
   <article>
-    {% for post in site.posts %}
-      {% if post.title == "404" %}
-        {{ post.content }}
+    {% for page in site.pages %}
+      {% if page.title == "404" %}
+        {{ page.content }}
       {% endif %}
     {% endfor %}
   </article>
