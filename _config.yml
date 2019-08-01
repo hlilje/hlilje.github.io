@@ -1,17 +1,17 @@
 # Jekyll
 encoding: utf-8
-markdown: kramdown
-timezone: Europe/Stockholm
 exclude:
     - bower.json
     - gulpfile.js
     - LICENSE
     - package.json
     - README.md
+markdown: kramdown
+timezone: Europe/Stockholm
 
 # Site variables
+analytics: UA-55203713-1
+enforce_ssl: hlilje.com
 title: hlilje
 url: https://hlilje.com
 url_short: hlilje.com
-enforce_ssl: hlilje.com
-analytics: UA-55203713-1
