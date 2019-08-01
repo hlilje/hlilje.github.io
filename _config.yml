@@ -2,6 +2,12 @@
 encoding: utf-8
 markdown: kramdown
 timezone: Europe/Stockholm
+exclude:
+    - bower.json
+    - gulpfile.js
+    - LICENSE
+    - package.json
+    - README.md
 
 # Site variables
 title: hlilje
