@@ -32,8 +32,8 @@ bespoke systems.
 During my time on Imperator: Rome I also took part in a strike team for improving multiplayer
 stability across all new PDS titles while adding new multiplayer features.
 
-Today I work as an Experienced Programmer on the Tech (Engine) Team at PDS, where I'm responsible
-for the grand strategy software library shared by all unreleased and recently released titles from
+Today I work as an Experienced Programmer on the Tech (Engine) Team at PDS, where I'm primarily
+developing the grand strategy software library shared by all unreleased and recently released titles from
 the studio. While I'm specialising in graphics programming, I work with all kinds of systems depending
 on the need of the game teams.
 
