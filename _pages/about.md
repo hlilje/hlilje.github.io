@@ -16,7 +16,7 @@ title: "About"
 </div>
 
 My name is Hampus Liljekvist, and I love learning, problem solving and creation.
-I'm currently working as a programmer at Paradox Development Studio in Stockholm,
+I'm currently working as an Experienced Programmer at Paradox Development Studio in Stockholm,
 Sweden, and I'm an MSE Computer Science and Engineering alumnus at [KTH Royal Institute of Technology]({{ site.data.links['kth_homepage'] }})
 with a Master's degree in (Theoretical) Computer Science.
 
@@ -24,8 +24,8 @@ I have three major passions in life, [software development]({{ site.data.links['
 [music]({{ site.data.links['soundcloud'][1] }}) and [video games]({{ site.data.links['steam'][1] }}).
 I fancy the combination of mathematical logic and creativity in hands-on programming,
 particularly when it involves developing software for people to experience. Solving
-complex problems and seeing the result manifest itself in a better product is something
-I adore.
+complex problems in a tight-knit team and seeing the result manifest itself in a better
+product is something I adore.
 
 This website works as a hub to my online presence. You will find links to some of the
 web services I use to your right or below, depending on the device you are viewing
