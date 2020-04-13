@@ -4,32 +4,38 @@ title: "Work"
 
 ## {{ page.title }}
 
-I have since August 2016 worked as a programmer at [Paradox Development Studio](https://www.paradoxplaza.com/).
-Video games has always been one of my largest interests, and being able to combine
-this passion with my love for software development is wonderful.
+I have since August 2016 worked as a programmer at [Paradox Development Studio](https://www.paradoxplaza.com/),
+which has allowed me to combine my love for video games with my passion for software
+development.
 
-In the past I have devoted my entire summer holidays at KTH to working, in order
-to gain experince, develop my skills and expand my professional network. Doing so
-has given me a greater understanding for how the proficiencies I gained from KTH can
-be applied to real-world problems, and it has been a catalyst for my focus to build
-a strong theoretical foundation through education.
+During my time at KTH I devoted my entire summer holidays to working, which in turn enabled
+me to try out various types of tasks, teams and work methodologies.
 
-### Practical Experience
+### Experience
 
 #### Paradox
 
-I've spent 1.5 years working on the 4X grand strategy video game [Stellaris](https://www.paradoxplaza.com/stellaris/STST01G-MASTER.html)
-at Paradox Development Studio (PDS), where my contributions can be seen from the expansion
+The first 1.5 years at Paradox Development Studio (PDS) were spent working on the 4X grand strategy
+video game [Stellaris](https://www.paradoxplaza.com/stellaris/STST01G-MASTER.html),
+where my contributions can be seen from the expansion
 Leviathans to the expansion Apocalypse (inclusive). My work mostly revolved around gameplay
-programming, but I was in particular responisble for multiplayer stability. I also contributed in
+programming, but I was in particular responsible for multiplayer stability. I also contributed in
 other areas such as graphics and scripting.
 
-More recently I've spent close to a year working on the grand strategy game [Imperator: Rome](https://www.paradoxplaza.com/imperator-rome/IMIM01GSK0000001-MASTER.html),
+Eventually I became tasked with starting up a secret project at PDS, which I worked on for a few months.
+
+After that I spent close to a year working on the grand strategy game [Imperator: Rome](https://www.paradoxplaza.com/imperator-rome/IMIM01GSK0000001-MASTER.html),
 first with pre-launch and then with post-launch support. I spent a significant amount of time
-on the mutliplayer aspect of the game, while also contributing with gameplay features and
+on the multiplayer aspect of the game, while also contributing with gameplay features and
 bespoke systems.
 
-Currently I'm involved in a secret project at PDS.
+During my time on Imperator: Rome I also took part in a strike team for improving multiplayer
+stability across all new PDS titles while adding new multiplayer features.
+
+Today I work as an Experienced Programmer on the Tech (Engine) Team at PDS, where I'm responsible
+for the grand strategy software library shared by all unreleased and recently released titles from
+the studio. While I'm specialising in graphics programming, I work with all kinds of systems depending
+on the need of the game teams.
 
 #### Past
 
