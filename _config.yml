@@ -3,11 +3,14 @@ collections:
     - pages
 encoding: utf-8
 exclude:
-    - bower.json
-    - gulpfile.js
     - LICENSE
-    - package.json
     - README.md
+    - gulpfile.js
+    - node_modules
+    - npm-debug.log
+    - package-lock.json
+    - package.json
+    - yarn.lock
 markdown: kramdown
 timezone: Europe/Stockholm
 
