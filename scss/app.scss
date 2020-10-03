@@ -182,6 +182,20 @@ $title-font-family: 'Montserrat', $header-font-family;
   }
 }
 
+.menu-text {
+  float: none;
+
+  h1 {
+    @include reset;
+
+    font-size: rem-calc(20);
+
+    a {
+      color: $body-font-color;
+    }
+  }
+}
+
 // Stop other bar from being briefly visible
 .no-js {
   @include breakpoint(small only) {
@@ -192,20 +206,6 @@ $title-font-family: 'Montserrat', $header-font-family;
   @include breakpoint($topbar-unstack-breakpoint) {
     .title-bar {
       display: none;
-    }
-  }
-}
-
-.top-bar-title {
-  float: none;
-
-  h1 {
-    @include reset;
-
-    font-size: rem-calc(20);
-
-    a {
-      color: $body-font-color;
     }
   }
 }
