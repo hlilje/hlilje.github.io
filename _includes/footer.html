@@ -1,23 +1,24 @@
-<footer>
-  <div class="grid-x">
-    <div class="cell">
-      <ul class="menu">
-        <li><a href="https://creativecommons.org/licenses/by/4.0/"><small>CC BY 4.0</small></a></li>
-        <li><a href="https://opensource.org/licenses/MIT"><small>MIT</small></a></li>
-        <li><a href="{{ site.data.links['github'][1] | xml_escape }}/hlilje.github.io"><small>Source</small></a></li>
-        <li><a href="#"><small><time datetime="{{ site.time | date: "%F" }}">{{ site.time | date: "%F" }}</time></small></a></li>
-      </ul>
-    </div>
+<div class="grid-x">
+  <div class="cell auto"></div>
+  <div class="cell shrink">
+    <footer class="footer-bottom">
+      <div class="grid-x">
+        <div class="cell">
+          <img src="/images/logo.svg" alt="Logo">
+        </div>
+      </div>
+      <div class="grid-x">
+        <div class="cell">
+          <ul class="menu">
+            <li><a href="{{ site.data.links['twitter'][1] | xml_escape }}"><i class="fa fa-twitter fa-fw"></i></a></li>
+            <li><a href="{{ site.data.links['facebook'][1] | xml_escape }}"><i class="fa fa-facebook fa-fw"></i></a></li>
+            <li><a href="{{ site.data.links['linkedin'][1] | xml_escape }}"><i class="fa fa-linkedin fa-fw"></i></a></li>
+            <li><a href="{{ site.data.links['reddit'][1] | xml_escape }}"><i class="fa fa-reddit fa-fw"></i></a></li>
+            <li><a href="{{ site.data.links['instagram'][1] | xml_escape }}"><i class="fa fa-instagram fa-fw"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
-  <div class="grid-x">
-    <div class="cell">
-      <ul class="menu">
-        <li><a href="{{ site.data.links['twitter'][1] | xml_escape }}"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="{{ site.data.links['facebook'][1] | xml_escape }}"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="{{ site.data.links['linkedin'][1] | xml_escape }}"><i class="fa fa-linkedin fa-fw"></i></a></li>
-        <li><a href="{{ site.data.links['reddit'][1] | xml_escape }}"><i class="fa fa-reddit fa-fw"></i></a></li>
-        <li><a href="{{ site.data.links['instagram'][1] | xml_escape }}"><i class="fa fa-instagram fa-fw"></i></a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
+  <div class="cell auto"></div>
+</div>

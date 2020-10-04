@@ -65,12 +65,10 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-// TODO: Everything below is likely outdated
-
 // Custom Variables
 // ----------------
 
-$logo-size: rem-calc(40);
+$logo-size: rem-calc(20);
 $title-font-family: 'Montserrat', $header-font-family;
 
 // Mixins
@@ -101,55 +99,12 @@ $title-font-family: 'Montserrat', $header-font-family;
 }
 
 .footer-bottom {
-  background: $titlebar-background;
-  padding: 1rem;
+  padding: rem-calc(20) 0 0 0;
   text-align: center;
-
-  li {
-    display: inline-block;
-
-    @include breakpoint(small only) {
-      a {
-        padding: 0.35rem 0.5rem
-      }
-    }
-  }
-}
-
-.frontpage-title {
-  padding: rem-calc(20) rem-calc(20);
-  text-align: center;
-
-  h2, img {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  h2 {
-    @include reset;
-
-    font-family: $title-font-family;
-    text-transform: uppercase;
-
-    @include breakpoint(small) {
-      font-size: rem-calc(20);
-    }
-    @include breakpoint(medium) {
-      font-size: rem-calc(40);
-    }
-  }
 
   img {
-    @include breakpoint(small) {
-      width: $logo-size / 2;
-      height: $logo-size / 2;
-      margin: 0 rem-calc(5) 0 0;
-    }
-    @include breakpoint(medium) {
-      width: $logo-size;
-      height: $logo-size;
-      margin: 0 rem-calc(10) 0 0;
-    }
+    width: $logo-size;
+    height: $logo-size;
   }
 }
 
@@ -172,22 +127,11 @@ $title-font-family: 'Montserrat', $header-font-family;
 // Foundation Classes
 // ------------------
 
-@include breakpoint($topbar-unstack-breakpoint) {
-  nav.top-bar {
-    text-align: center;
-
-    ul.menu li {
-      display: inline-block;
-    }
-  }
-}
-
 .menu-text {
-  float: none;
-
   h1 {
     @include reset;
 
+    font-family: $title-font-family;
     font-size: rem-calc(20);
 
     a {
@@ -210,9 +154,6 @@ $title-font-family: 'Montserrat', $header-font-family;
   }
 }
 
-// HTML Tags
-// ---------
-
-figure {
-  @include reset;
+.top-bar ul {
+  align-items: center;
 }

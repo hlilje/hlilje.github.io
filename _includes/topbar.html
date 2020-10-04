@@ -3,17 +3,23 @@
   <div class="title-bar-title">Menu</div>
 </div>
 
-<nav class="top-bar" id="responsive-menu">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">
-        <header><h1><a href="/"><strong>{{ site.title }}</strong></a></h1></header>
-      </li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/work">Work</a></li>
-      <li><a href="{{ site.data.links['github'][1] | xml_escape }}">Code</a></li>
-      <li><a href="http://music.{{ site.url_short }}">Music</a></li>
-      <li><a href="http://blog.{{ site.url_short }}">Blog</a></li>
-    </ul>
+<div class="grid-x">
+  <div class="cell auto"></div>
+  <div class="cell shrink">
+    <nav class="top-bar" id="responsive-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">
+            <header><h1><a href="/"><strong>{{ site.title }}</strong></a></h1></header>
+          </li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/work">Work</a></li>
+          <li><a href="{{ site.data.links['github'][1] | xml_escape }}">Code</a></li>
+          <li><a href="http://music.{{ site.url_short }}">Music</a></li>
+          <li><a href="http://blog.{{ site.url_short }}">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
-</nav>
+  <div class="cell auto"></div>
+</div>

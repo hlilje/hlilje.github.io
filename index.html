@@ -5,30 +5,24 @@ description: "The official website of Hampus Liljekvist"
 ---
 
 <section>
-  <div class="grid-x">
-    <div class="cell frontpage-title">
-      <img src="/images/logo.svg" alt="Logo">
-      <h2>Hampus Liljekvist</h2>
-    </div>
-  </div>
-  <div class="grid-container">
-    <div class="grid-x">
-      <div class="cell large-8 medium-10">
-        <div class="portfolio" data-equalizer data-equalize-on="small">
-          {% for item in site.data.portfolio-items %}
-            {% assign ix = forloop.index | modulo: 3 %}
-            {% if ix == 1 %}
-              <div class="grid-x">
-            {% endif %}
-            <div class="cell medium-4" data-equalizer-watch>
-              <a href="{{ item[1] | xml_escape }}">{{ item[0] | xml_escape }}</a>
+  <div class="grid-x grid-padding-x">
+    <div class="cell auto"></div>
+    <div class="cell large-5 medium-8">
+      <div class="portfolio" data-equalizer data-equalize-on="small">
+        {% for item in site.data.portfolio-items %}
+          {% assign ix = forloop.index | modulo: 3 %}
+          {% if ix == 1 %}
+            <div class="grid-x">
+          {% endif %}
+          <div class="cell medium-4" data-equalizer-watch>
+            <a href="{{ item[1] | xml_escape }}">{{ item[0] | xml_escape }}</a>
+          </div>
+          {% if ix == 0 %}
             </div>
-            {% if ix == 0 %}
-              </div>
-            {% endif %}
-          {% endfor %}
-        </div>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
+    <div class="cell auto"></div>
   </div>
 </section>

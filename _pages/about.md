@@ -53,3 +53,9 @@ their respective licenses.
 
 The domain registrar is [Namecheap](https://www.namecheap.com/), and [CloudFlare](https://www.cloudflare.com/)
 is used as a CDN and DNS server with free Universal SSL.
+
+// TODO
+<li><a href="https://creativecommons.org/licenses/by/4.0/"><small>CC BY 4.0</small></a></li>
+<li><a href="https://opensource.org/licenses/MIT"><small>MIT</small></a></li>
+<li><a href="{{ site.data.links['github'][1] | xml_escape }}/hlilje.github.io"><small>Source</small></a></li>
+<li><a href="#"><small><time datetime="{{ site.time | date: "%F" }}">{{ site.time | date: "%F" }}</time></small></a></li>
