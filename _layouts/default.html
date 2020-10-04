@@ -3,14 +3,16 @@
   {% include head.html %}
   <body>
     {% include topbar.html %}
-    <div class="grid-x">
-      <div class="cell large-8">
-        <main>
-          {{ content }}
-        </main>
-      </div>
-      <div class="cell large-4">
-        {% include links.html %}
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell large-8 medium-8">
+          <main>
+            {{ content }}
+          </main>
+        </div>
+        <div class="cell large-4 medium-4">
+          {% include links.html %}
+        </div>
       </div>
     </div>
     {% include footer.html %}
