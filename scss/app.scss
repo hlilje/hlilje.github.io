@@ -99,7 +99,7 @@ $title-font-family: 'Montserrat', $header-font-family;
 }
 
 .footer-bottom {
-  padding: rem-calc(20) 0 0 0;
+  padding: rem-calc(30) 0 0 0;
   text-align: center;
 
   img {
@@ -115,7 +115,7 @@ $title-font-family: 'Montserrat', $header-font-family;
 .portfolio {
   padding: rem-calc(20) 0 0 0;
 
-  div div {
+  div {
     padding: 0 0 rem-calc(20) 0;
     font-family: $title-font-family;
     text-align: center;
