@@ -15,4 +15,4 @@
   Last update: {{ site.time | date: "%F" }}
   Standards: HTML5, SCSS, CSS3, JavaScript
   Components: ZURB Foundation, Jekyll, jQuery
-  Software: Git
+  Software: Git, npm

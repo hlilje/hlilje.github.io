@@ -10,6 +10,7 @@ exclude:
     - npm-debug.log
     - package-lock.json
     - package.json
+    - scss
     - yarn.lock
 markdown: kramdown
 timezone: Europe/Stockholm
