@@ -1,8 +1,7 @@
-*.DS_Store
-/_site/*
-/etc/*
-/node_modules/*
+_site/*
+node_modules/*
+.DS_Store
+npm-debug.log
 
 # Include these folders because Jekyll can't compile Foundation
-# /bower_components/*
-# /css/*
+# css/*

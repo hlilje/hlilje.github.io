@@ -3,23 +3,19 @@
   {% include head.html %}
   <body>
     {% include topbar.html %}
-    <div class="row">
-      <div class="large-8 columns">
-        <main>
-          {{ content }}
-        </main>
-      </div>
-      <div class="large-4 columns">
-        {% include links.html %}
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="row">
-        <div class="large-12 columns">
-          {% include footer.html %}
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell large-8 medium-8">
+          <main>
+            {{ content }}
+          </main>
+        </div>
+        <div class="cell large-4 medium-4">
+          {% include links.html %}
         </div>
       </div>
     </div>
+    {% include footer.html %}
     {% include scripts.html %}
   </body>
 </html>
