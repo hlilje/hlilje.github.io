@@ -5,15 +5,11 @@ title: "About"
 ## {{ page.title }}
 
 <!-- Inline HTML for scrset support -->
-<div class="row">
-  <div class="small-6 columns small-centered">
-    <figure>
-      <img src="/images/profile-picture.jpg"
-           srcset="/images/profile-picture.jpg 1x, /images/profile-picture@2x.jpg 2x"
-           alt="Profile picture" class="profile-picture">
-    </figure>
-  </div>
-</div>
+<figure class="profile-picture">
+  <img src="/images/profile-picture.jpg"
+       srcset="/images/profile-picture.jpg 1x, /images/profile-picture@2x.jpg 2x"
+       alt="Profile picture" class="profile-picture">
+</figure>
 
 My name is Hampus Liljekvist, and I love learning, problem solving and creation.
 I'm currently working as an Experienced Programmer at Paradox Development Studio in Stockholm,
