@@ -5,12 +5,12 @@ encoding: utf-8
 exclude:
     - LICENSE
     - README.md
+    - etc
     - gulpfile.js
     - node_modules
-    - npm-debug.log
-    - package-lock.json
     - package.json
     - scss
+    - yarn-error.log
     - yarn.lock
 markdown: kramdown
 timezone: Europe/Stockholm

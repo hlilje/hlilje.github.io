@@ -1,7 +1,8 @@
 _site/*
+etc/*
 node_modules/*
 .DS_Store
-npm-debug.log
+yarn-error.log
 
 # Include these folders because Jekyll can't compile Foundation
 # css/*
