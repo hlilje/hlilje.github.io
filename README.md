@@ -5,8 +5,10 @@
 ## Useful Commands
 
 ```
-foundation watch            // Watch for Sass changes (and start local server)
-jekyll serve                // Watch for Jekyll changes and start local server
+yarn                                   // Install dependencies
+yarn upgrade foundation-sites@x.y.z    // Update Foundation to version x.y.z
+foundation watch                       // Watch for Sass changes (and start local server)
+jekyll serve                           // Watch for Jekyll changes and start local server
 ```
 
 ## Useful URLs
