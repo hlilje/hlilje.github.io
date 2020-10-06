@@ -1,8 +1,8 @@
-<aside class="external-links">
+<section class="external-links">
   <h2><small>Links</small></h2>
   <ul class="vertical menu">
     {% for site in site.data.links %}
       <li><a href="{{ site[1][1] | xml_escape }}" target="_blank">{{ site[1][0] | xml_escape }}</a></li>
     {% endfor %}
   </ul>
-</aside>
+</section>

@@ -4,12 +4,10 @@ title: "hlilje | Work"
 description: "Information about my career"
 ---
 
-<section>
-  <article>
-    {% for page in site.pages %}
-      {% if page.title == "Work" %}
-        {{ page.content }}
-      {% endif %}
-    {% endfor %}
-  </article>
-</section>
+<article>
+  {% for page in site.pages %}
+    {% if page.title == "Work" %}
+      {{ page.content }}
+    {% endif %}
+  {% endfor %}
+</article>

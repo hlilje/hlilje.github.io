@@ -4,12 +4,10 @@ title: "hlilje | 404"
 description: "Missing page"
 ---
 
-<section>
-  <article>
-    {% for page in site.pages %}
-      {% if page.title == "404" %}
-        {{ page.content }}
-      {% endif %}
-    {% endfor %}
-  </article>
-</section>
+<article>
+  {% for page in site.pages %}
+    {% if page.title == "404" %}
+      {{ page.content }}
+    {% endif %}
+  {% endfor %}
+</article>

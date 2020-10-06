@@ -4,12 +4,10 @@ title: "hlilje | Hampus Liljekvist"
 description: "The official website of Hampus Liljekvist"
 ---
 
-<section>
-  <div class="grid-x small-up-1 medium-up-2 large-up-3 portfolio">
-    {% for item in site.data.portfolio-items %}
-      <div class="cell">
-        <a href="{{ item[1] | xml_escape }}">{{ item[0] | xml_escape }}</a>
-      </div>
-    {% endfor %}
-  </div>
-</section>
+<div class="grid-x small-up-1 medium-up-2 large-up-3 portfolio">
+  {% for item in site.data.portfolio-items %}
+    <div class="cell">
+      <a href="{{ item[1] | xml_escape }}">{{ item[0] | xml_escape }}</a>
+    </div>
+  {% endfor %}
+</div>
