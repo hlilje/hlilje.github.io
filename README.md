@@ -2,6 +2,8 @@
 
 [Hampus Liljekvist](https://twitter.com/hlilje)'s personal GitHub Pages website built using **Foundation 6.6.3**.
 
+Remember to update the [CDN links](https://github.com/hlilje/hlilje.github.io/blob/master/_includes/scripts.html) when updating dependencies!
+
 ## Useful Commands
 
 ```
