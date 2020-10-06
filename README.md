@@ -8,7 +8,7 @@ Remember to update the [CDN links](https://github.com/hlilje/hlilje.github.io/bl
 
 ```
 yarn                                   // Install dependencies
-yarn upgrade foundation-sites@x.y.z    // Update Foundation to version x.y.z
+yarn upgrade foundation-sites@x.y.z    // Upgrade Foundation to version x.y.z
 foundation watch                       // Watch for Sass changes (and start local server)
 jekyll serve                           // Watch for Jekyll changes and start local server
 ```
