@@ -1,6 +1,6 @@
 # Hampus Liljekvist's Personal Website
 
-[Hampus Liljekvist's](https://twitter.com/hlilje) personal GitHub Pages website built using **Foundation 6.6.3**.
+[Hampus Liljekvist](https://twitter.com/hlilje)'s personal GitHub Pages website built using **Foundation 6.6.3**.
 
 ## Useful Commands
 
