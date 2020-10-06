@@ -1,12 +1,12 @@
 # Hampus Liljekvist's Personal Website
 
+[Hampus Liljekvist's](https://twitter.com/hlilje) personal GitHub Pages website built using **Foundation 6.6.3**.
+
 ## Useful Commands
 
 ```
-foundation update           // Update Foundation
-foundation watch            // Have Foundation watch for changes
-jekyll build                // Build site
-jekyll serve                // Start local server and watch for changes
+foundation watch            // Watch for Sass changes (and start local server)
+jekyll serve                // Watch for Jekyll changes and start local server
 ```
 
 ## Useful URLs
