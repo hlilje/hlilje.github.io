@@ -43,7 +43,7 @@ and standardisation.
 Before Paradox I've had various summer jobs while studying, for instance developing website features
 for a major chain of building suppliers at [5 Monkeys](https://5monkeys.se/) in 2015, creating
 an Excel tool for aiding with the analysis of the energy market at [Fortum](https://www.fortum.com/) in
-2014, or revitalising an internal website for production substitution at [Ericsson](https://www.ericsson.com/)
+2014, or revitalising an internal website for product substitution at [Ericsson](https://www.ericsson.com/)
 in 2013.
 
 For a full list of work and work-related projects, check out my
