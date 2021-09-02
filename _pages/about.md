@@ -12,17 +12,20 @@ title: "About"
 </figure>
 
 Hi, I'm Hampus Liljekvist, game developer and amateur music producer interested in creating
-compelling virtual experiences (read: video games). By trade an Experienced Programmer at [Paradox
-Development Studio](https://paradoxplaza.com/) in Stockholm, Sweden, with a Master's degree
-in Computer Science and Engineering from
+compelling virtual experiences (read: video games). By trade a Game Programmer at [Embark Studios](https://www.embark-studios.com/)
+in Stockholm, Sweden, with a Master's degree in Computer Science and Engineering from
 [KTH Royal Institute of Technology]({{ site.data.links['kth_homepage'][1] }}).
 
 ### Work
 
-I have worked as a programmer at Paradox since 2016, where the first five years were spent on the
-grand strategy/4X video game [Stellaris](https://www.stellaris.com/en/pc) which included every expansion
-up until (including) Apocalypse. I mainly did gameplay programming, but was in particular responsible for
-multiplayer stability. I also contributed in other areas such as graphics and scripting.
+I am since August 2021 working as a Game Programmer over at Embark Studios on their
+[first project](https://medium.com/embarkstudios/our-continued-journey-89dad7a76bff).
+
+Previously I worked as a gameplay/engine programmer at Paradox Development Studio from 2016 to 2021, where the
+first couple of years were spent on the grand strategy/4X video game [Stellaris](https://www.stellaris.com/en/pc)
+which included every expansion up until (including) Apocalypse. I mainly did gameplay programming, but was in
+particular responsible for multiplayer stability. I also contributed in other areas such as graphics, UI and
+scripting.
 
 Eventually I became tasked with starting up a secret project at PDS, which I worked on for a few months.
 
@@ -34,11 +37,11 @@ contributing with gameplay features and bespoke systems.
 During my time on Imperator: Rome I also took part in a strike team for improving multiplayer
 stability across all new PDS titles while adding new multiplayer features.
 
-Today I work as an Experienced Programmer on the Tech (Engine) Team at PDS, where I'm developing
-the tech that is shared by all our future and recently released titles. While I'm specialising in
-graphics programming, I work with all kinds of systems depending on the needs of the game teams.
-I also engage myself in other non-programming activities such as programmer mentoring, recruitment
-and standardisation.
+For my final ~2 years I worked as a programmer on the Tech (Engine) Team at PDS, where I was
+developing the tech shared by all their future and recently released titles. While I was especially
+focused on graphics programming and macOS, I worked with all kinds of systems depending on the needs
+of the game teams. I also engaged myself in other non-programming activities such as programmer mentoring,
+recruitment and standardisation.
 
 Before Paradox I've had various summer jobs while studying, for instance developing website features
 for a major chain of building suppliers at [5 Monkeys](https://5monkeys.se/) in 2015, creating
