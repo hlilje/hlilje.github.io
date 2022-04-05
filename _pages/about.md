@@ -18,8 +18,7 @@ in Stockholm, Sweden, with a Master's degree in Computer Science and Engineering
 
 ### Work
 
-I am since August 2021 working as a Game Programmer over at Embark Studios on their
-[first project](https://medium.com/embarkstudios/our-continued-journey-89dad7a76bff).
+I am since August 2021 working as a Game Programmer over at Embark Studios on [ARC Raiders](https://arcraiders.com/).
 
 Previously I worked as a gameplay/engine programmer at Paradox Development Studio from 2016 to 2021, where the
 first couple of years were spent on the grand strategy/4X video game [Stellaris](https://www.stellaris.com/en/pc)
