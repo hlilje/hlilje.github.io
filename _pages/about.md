@@ -56,4 +56,4 @@ For a full list of work and work-related projects, check out my
 Do feel free to reach out, for instance on [Twitter]({{ site.data.links['twitter'][1] }})
 or [LinkedIn]({{ site.data.links['linkedin'][1] }}).
 
-<small>[Last update <time datetime="{{ site.time | date: "%F" }}">{{ site.time | date: "%F" }}</time>]({{ site.data.links['github'][1] | xml_escape }}/hlilje.github.io)</small>
+<small>[Last updated <time datetime="{{ site.time | date: "%F" }}">{{ site.time | date: "%F" }}</time>]({{ site.data.links['github'][1] | xml_escape }}/hlilje.github.io)</small>
